@@ -1,3 +1,9 @@
 h1{
 	border: 2px solid green;
 }
+
+body{
+	background-image: src="img/clear-skies.jpg";
+	width: 300px;
+	margin: 100px auto;
+}
