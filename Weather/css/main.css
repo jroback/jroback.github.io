@@ -12,7 +12,7 @@
 }
 
 .close{
-	position: absolute;
+	position: inherit;
 	top:-5px;
 	right:-5px;
 }
