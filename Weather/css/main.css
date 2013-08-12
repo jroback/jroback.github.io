@@ -3,7 +3,7 @@ h1{
 }
 
 body{
-	background-image: href="img/clear-skies.jpg";
+	background-image: url("img/clear-skies.jpg");
 	width: 300px;
 	margin: 100px auto;
 }
