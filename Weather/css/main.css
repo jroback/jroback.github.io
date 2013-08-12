@@ -1,5 +1,4 @@
 .title{
-	border: 2px solid green;
 	font-size: 30px;
 }
 
@@ -13,6 +12,7 @@
 }
 
 .close{
-	position: relative;
-	float: right;
+	position: fixed;
+	top:-5px;
+	right:-5px;
 }
