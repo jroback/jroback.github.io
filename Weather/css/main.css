@@ -5,6 +5,7 @@
 
 .background{
 	background-image: url("../img/clear-skies.jpg");
+	background-repeat: no-repeat;
 	width: 300px;
 	margin: 100px auto;
 }
