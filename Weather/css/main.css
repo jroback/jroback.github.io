@@ -8,6 +8,11 @@
 	background-repeat: no-repeat;
 	width: 300px;
 	height: 580px;
-	margin: 100px auto;
+	margin: auto;
 	position: center;
+}
+
+.close{
+	position: relative;
+	float: right;
 }
