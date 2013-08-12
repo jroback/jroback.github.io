@@ -1,9 +1,9 @@
-h1{
+.title{
 	border: 2px solid green;
 	font-size: 30px;
 }
 
-body{
+.background{
 	background-image: url("../img/clear-skies.jpg");
 	width: 300px;
 	margin: 100px auto;
