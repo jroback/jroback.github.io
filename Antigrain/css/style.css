@@ -1,0 +1,38 @@
+/* ========================== Header ========================== */
+
+.header{
+	height: 30px;
+	background-color: white;
+	padding: 20px;
+	border-bottom: 2px solid #afafaf;
+	position:fixed; width:100%; top:0; left:0;
+}
+
+header nav{
+	text-align: right;
+	line-height: 33px;
+	float: right;
+	padding: 0 30px;
+}
+
+nav a{
+	padding: 0 5px;
+	font-size: 16px;
+	color: #6d6d6d;
+	font-family: sans-serif;
+	font-weight: 75%;
+}
+
+nav a:hover{
+	padding: 0 5px;
+	font-size: 16px;
+	color: #000000;
+	font-family: sans-serif;
+	font-weight: 75%;
+}
+
+.logo{
+	position: fixed;
+	top:-5px;
+
+}
