@@ -14,5 +14,6 @@
 .close{
 	position: inherit;
 	top:-5px;
-	margin: 310px auto;
+	right: -5px;
+	margin: 100px auto 0px auto;
 }
