@@ -2,7 +2,62 @@ h1{
 	font-size: 40px;
 }
 
+a{
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 0px -1px 1px black;
+}
+
+.nav{
+	margin: 100px auto 25px auto;
+	float: left;
+
+
+}
+
+
+.clear{
+	clear: both;
+}
+
 .button{
-	color: #916543;
-	border: 2px solid red;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 6px;
+	background-color: #999999;
+	display: inline;
+	float: left;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+
+header{
+	margin:0px auto 30px auto;
+	border-bottom: 10px black;
+	background-color: #999999;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0px; right: 0px;
+	float: left;
+}
+
+.header-container{
+	padding: 15px 0;
+}
+
+header h1{
+	font-family: arial;
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+
+
+header h2{
+	font-family: georgia;
+	font-size: 18px;
+
 }
