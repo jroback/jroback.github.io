@@ -1,6 +1,50 @@
-.title{
-	font-size: 30px;
+body{
+	color: white;
+	font-style: sans-serif;
 }
+
+.clear{
+	clear: both;
+}
+
+.container-top{
+	padding-top: 50px;
+	height: 189px;
+	border-bottom: 1px solid white;
+	position: relative;
+}
+
+.bottom-section{
+	padding: 15px;
+	height: 199px;
+	border-top: 1px solid white;
+	position: absolute;
+	width: 270px;
+	bottom: 0px;
+}
+
+.aside-right{
+	position: absolute;
+	top: 15px; right: 15px;
+
+}
+
+.title{
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5em;
+}
+.city{
+	font-size: 30px;
+	text-align: center;
+}
+
+.temp{
+	font-size: 66px;
+	text-align: center;
+	line-height: .88em;
+}
+
 
 .background{
 	background-image: url("../img/clear-skies.jpg");
@@ -8,12 +52,73 @@
 	width: 300px;
 	height: 580px;
 	margin: 100px auto;
-	position: center;
+	position: relative;
 }
 
 .close{
 	position: absolute;
-	top:-5px;
-	right: -5px;
+	top:-10px;
+	right: -10px;
+}
+
+
+.left{
+	position: absolute;
+	left: 15px;
+	bottom:15px;
+}
+
+.right{
+	position: absolute;
+	right: 15px;
+	bottom:15px;
+}
+
+
+.left-list{
+	padding:10px 0px;
 
 }
+
+
+.right-cloudy{
+	padding:10px 0px;
+	text-align: left;
+	background: url("../img/icon_cloudy.png")
+	center right no-repeat;
+	width: 80px;
+}
+
+
+.right-sunny{
+	padding:10px 0px;
+	text-align: left;
+	background: url("../img/icon_sunny.png")
+	center right no-repeat;
+	width: 80px;
+}
+
+.right-rain{
+	padding:10px 0px;
+	text-align: left;
+	background: url("../img/icon_rain.png")
+	center right no-repeat;
+	width: 80px;
+}
+
+.hour{
+	width:5px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+
+.container-middle{
+	float: left;
+	margin:0 auto;
+}
+
+
+
+
+
