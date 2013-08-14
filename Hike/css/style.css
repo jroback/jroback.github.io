@@ -1,0 +1,319 @@
+@font-face {
+  font-family: "Brandon";
+  src: url("../Brandon_reg.otf") format("opentype");
+}
+
+a{
+	padding: none;
+}
+
+
+/* ========================== Header ========================== */
+
+.header-cont{
+	position: fixed;
+	top: 0px; left: 0px; right: 0px;
+	width: 100%;
+	background-color: rgba(255,255,255,.95);
+	border-top: 5px solid #70F28E;
+	border-bottom: 1px solid #666;
+}
+
+.header{
+	height: 40px;
+	width: 960px;
+	margin: 0px auto;
+	padding: 23px 0px;
+	position: relative;
+}
+
+header nav{
+	text-align: left;
+	line-height: 55px;
+	float: right;
+	padding: 0px;
+}
+
+nav a{
+	padding: 0 0px 0 15px;
+	opacity: 0.8;
+}
+
+nav a:hover{
+	opacity: 1;
+}
+
+
+.logo{
+	position: absolute;
+	top:36px;
+	font-family: "Autour One", helvetica, sans-serif;
+	font-size: 40px;
+	color: #555;
+	letter-spacing: -2px;
+	word-spacing: -3px;
+
+}
+
+
+/* ========================== Main ========================== */
+
+.main{
+	min-width: 960px;
+	margin: 0px auto;
+	font-family: "Brandon";
+}
+
+
+/* ========================== Intro ========================== */
+
+
+.container{
+	width: 100%;
+	height: 600px;
+	background: url(../img/hike-cover.jpg) 
+	top center no-repeat;
+	margin:102px auto 0px auto;
+}
+
+
+.intro h3{
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px #333;
+	padding-top: 110px;
+}
+
+
+.intro h4{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px #333;
+	padding-top: 30px;
+}
+
+.play{
+	height: 100px;
+	width: 100px;
+	background: url(../img/play-btn.png)
+	top center no-repeat;
+	margin: 35px auto 0px auto;
+}
+
+.play:hover{
+	background: url(../img/play-btn-hover.png)
+	top center no-repeat;
+	cursor: hand;
+}
+
+
+.download-btn{
+	background-color: #70F28E;
+	border-radius: 4px;
+	width: 200px;
+	height: 50px;
+	margin: 35px auto 35px auto;
+	box-shadow: 0px 3px 0px 0px #5FC171;
+}
+
+.intro h5{
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px #999;
+	padding-top: 17px;
+}
+
+.download-btn:hover{
+	background-color: #5FC171;
+	box-shadow: 0px 3px 0px 0px #45824E;
+}
+
+
+.arrow-down{
+	margin: 65px auto 25px auto;
+	background: url(../img/arrow-down.png)
+	top center no-repeat;
+	width: 24px; height: 13px;
+}
+
+
+/* ========================== Pizza ========================== */
+
+
+.middle{
+	width: 100%;
+	height: 520px;
+	background: linear-gradient(#70F28E 20%, #C0FCCB, #F0FFF3, #fff 90%, #F0FFF3);
+	margin: 0px auto 0px auto;
+	box-shadow: 0px 0px 5px 1px #F0FFF3;
+}
+
+.pizza{
+	width: 960px;
+	margin: 0px auto;
+
+}
+
+
+.pizza-text{
+	margin-top: 30px;
+	float: right;
+	width: 530px;
+}
+
+.pizza h3{
+	font-size: 60px;
+	text-align: left;
+	color: white;
+	line-height: 1.15em;
+	text-shadow: 2px 2px 2px #333;
+	padding-top: 110px;
+}
+
+
+.pizza h4{
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	text-shadow: 1px 1px 1px #333;
+	padding-top: 30px;
+}
+
+.pizza-image{
+	width: 430px;
+	height: 520px;
+	float: left;
+	background: url(../img/ipizza.png)
+	top 100 left no-repeat;
+}
+
+.small-btn{
+	margin: 30px 0px;
+	float: left;
+	background-color: #70F28E;
+	border-radius: 4px;
+	width: 200px;
+	height: 50px;
+	box-shadow: 0px 3px 0px 0px #5FC171;
+}
+
+.small-btn:hover{
+	background-color: #5FC171;
+	box-shadow: 0px 3px 0px 0px #45824E;
+}
+
+.small-btn h5{
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px #999;
+	padding-top: 17px;
+}
+
+/* ========================== Hiring ========================== */
+
+
+
+.hiring{
+	width: 100%;
+	height: 600px;
+	margin: 0px auto 0px auto;
+	background: url(../img/office.jpg)
+	top center no-repeat;
+}
+
+.we-hire{
+	width: 960px;
+	margin: 0px auto;
+
+}
+
+
+.hire-text{
+	margin-top: 30px;
+	float: left;
+	width: 530px;
+}
+
+.hiring h3{
+	font-size: 60px;
+	text-align: left;
+	color: #fff;
+	line-height: 1.15em;
+	text-shadow: 2px 2px 2px #333;
+	padding-top: 110px;
+	text-shadow: 1px 1px 1px #333;
+}
+
+
+.hire-image{
+	width: 430px;
+	height: 199px;
+	float: right;
+	opacity: .9;
+	background: url(../img/glassdoor.png)
+	top right no-repeat;
+}
+
+
+.hiring h4{
+	font-size: 20px;
+	text-align: left;
+	color: #fff;
+	padding: 30px 0px 25px 3px;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.hiring li{
+	padding: 6px 3px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.hiring a{
+	color: #fff;
+	text-shadow: 1px 1px 1px #333;
+}
+
+
+.small-btn{
+	margin: 30px 0px;
+	float: left;
+	background-color: #70F28E;
+	border-radius: 4px;
+	width: 200px;
+	height: 50px;
+	box-shadow: 0px 3px 0px 0px #5FC171;
+}
+
+.small-btn:hover{
+	background-color: #5FC171;
+	box-shadow: 0px 3px 0px 0px #45824E;
+}
+
+.small-btn h5{
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px #999;
+	padding-top: 17px;
+}
+
+
+/* ========================== Footer ========================== */
+
+.footer-cont{
+	height: 100px;
+	margin: 0px auto;
+	background-color: #fff;
+	border-top: 5px solid #70F28E;
+}
+
+
+
+
+
+

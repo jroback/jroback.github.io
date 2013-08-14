@@ -9,10 +9,8 @@ a{
 }
 
 .nav{
+	width: 960px;
 	margin: 100px auto 25px auto;
-	float: left;
-
-
 }
 
 
