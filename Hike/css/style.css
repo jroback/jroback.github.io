@@ -130,6 +130,7 @@ nav a:hover{
 .download-btn:hover{
 	background-color: #5FC171;
 	box-shadow: 0px 3px 0px 0px #45824E;
+	cursor: hand;
 }
 
 
@@ -205,6 +206,7 @@ nav a:hover{
 .small-btn:hover{
 	background-color: #5FC171;
 	box-shadow: 0px 3px 0px 0px #45824E;
+	cursor: hand;
 }
 
 .small-btn h5{
@@ -213,6 +215,7 @@ nav a:hover{
 	color: white;
 	text-shadow: 1px 1px 1px #999;
 	padding-top: 17px;
+
 }
 
 /* ========================== Hiring ========================== */
@@ -296,6 +299,7 @@ nav a:hover{
 .small-btn:hover{
 	background-color: #5FC171;
 	box-shadow: 0px 3px 0px 0px #45824E;
+	cursor: hand;
 }
 
 .small-btn h5{
