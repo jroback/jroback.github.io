@@ -17,7 +17,7 @@ a{
 	z-index: 100;
 	background-color: rgba(255,255,255,.95);
 	border-top: 5px solid #70F28E;
-	border-bottom: 1px solid #666;
+	box-shadow: 0 0 4px 1px #666;
 }
 
 .header{
@@ -47,7 +47,7 @@ nav a:hover{
 
 .logo{
 	position: absolute;
-	top:36px;
+	top:39px;
 	font-family: "Autour One", helvetica, sans-serif;
 	font-size: 40px;
 	color: #555;
