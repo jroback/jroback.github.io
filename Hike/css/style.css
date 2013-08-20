@@ -98,14 +98,15 @@ nav a:hover{
 .play{
 	height: 100px;
 	width: 100px;
-	background: url(../img/play-btn.png)
+	background: url(../img/play-sprite.png)
 	top center no-repeat;
 	margin: 35px auto 0px auto;
 }
 
 .play:hover{
-	background: url(../img/play-btn-hover.png)
+	background: url(../img/play-sprite.png)
 	top center no-repeat;
+	background-position: 0 -101px;
 	cursor: hand;
 }
 
