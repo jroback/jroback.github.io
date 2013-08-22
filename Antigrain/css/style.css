@@ -30,7 +30,7 @@ title{
 	top: 0px; left: 0px; right: 0px;
 	width: 100%;
 	background-color: rgba(255,255,255,.95);
-	border-top: 5px solid #70F28E;
+	border-top: 5px solid #73c1af;
 	border-bottom: 1px solid rgba(198,198,198,.6);
 	z-index: 100;
 }
@@ -48,7 +48,7 @@ header nav{
 	line-height: 55px;
 	float: left;
 	padding: 0 40px;
-	margin-left: 120px;
+	margin-left: 70px;
 }
 
 nav a{
@@ -61,7 +61,7 @@ nav a{
 }
 
 nav a:hover{
-	color: #000000;
+	color: #73c1af;
 }
 
 .logo{
@@ -95,7 +95,27 @@ nav a:hover{
 .blog-container{
 	width: 962px;
 	margin: 91 auto 0 auto;
-	border: 1px #bbbbbb;
+	/* border: 1px solid #bbbbbb; */
+}
+.blog-container h2{
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 15px;
+	font-family: "Helvetica-Neue", sans-serif;
+	color: #666;
+}
+
+.blog-container h3{
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-bottom: 25px;
+	font-family: "Helvetica-Neue", sans-serif;
+	color: #999;
+	
 }
 
 .post-wrapper{
@@ -146,15 +166,15 @@ nav a:hover{
 .post-label{
 	padding: 15px;
 	background-color: #fff;
-	color: #00F080;
-	font-size: 15px;
-	font-weight: 600;
+	color: #73c1af;
+	font-size: 14px;
+	line-height: 1.25em;
+	font-weight: bold;
 	font-family: "Helvetica-Neue", sans-serif;
 	width: 256px;
 	position: absolute;
 	z-index: 2;
 	top: 160px;
-	line-height: 1.15em;
 	left: 1px;
 	box-shadow: 0px 0px 4px #aaa;
 }
@@ -165,12 +185,12 @@ nav a:hover{
 	position: relative;
 	width: 930px;
 	height: 800px;
-	margin: 16px auto;
+	margin: 40px auto;
 }
 
 .post-cover-feat{
 	position: absolute;
-	margin-top: 16px;
+	margin-top: 35px;
 	width: 900px;
 	height: 360px;
 	top: 0px;
@@ -181,7 +201,7 @@ nav a:hover{
 
 .post-1-feat{
 	position: absolute;
-	margin-top: 16px;
+	margin-top: 35px;
 	width: 900px;
 	height: 360px;
 	top: 0px;
@@ -192,7 +212,7 @@ nav a:hover{
 
 .post-2-feat{
 	position: absolute;
-	margin-top: 16px;
+	margin-top: 35px;
 	width: 900px;
 	height: 360px;
 	top: 0px;
@@ -205,7 +225,7 @@ nav a:hover{
 .post-label-big{
 	padding: 20px 0px;
 	background-color: #fff;
-	color: #636262;
+	color: #73c1af;
 	font-size: 12px;
 	font-weight: 600;
 	font-family: "Helvetica-Neue", sans-serif;
@@ -217,13 +237,15 @@ nav a:hover{
 }
 
 .post-label-big p{
-	margin-bottom: 25px;
+	margin: 20px 0px 0px 0px;
 	font-weight: 300;
 	font-family: "Helvetica-Neue", sans-serif;
+	color: #666;
+	line-height: 1.66em;
 }
 
 .post-label-big h5{
-	color: #00F080;
+	color: #73c1af;
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 1.25em;
