@@ -11,7 +11,7 @@
 }
 @font-face {
   font-family: "Helvetica-Neue";
-  src: url("../HelveticaNeue.dfont") format("dfont");
+  src: url("../helveticaneue.ttf") format("truetype");
 }
 
 .clear{
@@ -199,8 +199,8 @@ input{
 
 .date-stamp{
 	font-family: "Helvetica-Neue", sans-serif;
-	font-weight: 400;
 	font-size: 12px;
+	font-weight: 300;
 	display: inline-block;
 	float: right;
 	padding-top: 15px;
