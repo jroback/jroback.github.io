@@ -38,6 +38,10 @@
 	clear: both;
 }
 
+#strong{
+	font-family: "HN-Bold";
+}
+
 /* ========================== Header ========================== */
 
 title{
@@ -372,7 +376,7 @@ input{
 }
 
 .post-label-big p{
-	margin: 15px 0px 0px 0px;
+	margin: 10px 0px 0px 0px;
 	font-family: "HN-Light", sans-serif;
 	color: #666;
 	line-height: 1.66em;

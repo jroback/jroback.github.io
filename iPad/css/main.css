@@ -1,18 +1,49 @@
 /* header */
 
-li{
-	margin: 0px 0px;
+
+body{
+	background-color: #ededed;
+}
+
+.container{
+	background: white top center;
+	width: 1160px;
+	height: 1200px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.clear{
+	clear: both;
+}
+
+
+header{
+	padding-top: 25px;
+	display: inline-block;
+	text-align: center;
+	margin: 0px auto;
+}
+
+
+header ul{
+	display: inline-block;
+	padding: 5px 30px;
+	margin-top: 45px;
+	margin-bottom: 30px;
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+	font-family: "cambria", "lucinda", sans-serif;
+	list-style: none;
 }
 
 header li{
 	display: inline-block;
-	padding: 5px 10px;
+	padding: 12px 35px;
 	border-right: 1px solid black;
 	background: linear-gradient(#999 50%, #555 50%);
-	color: white;
-	text-shadow: 1px 1px 1px #000;
-	font-family: "cambria", "lucinda", sans-serif;
-	margin: none;
+	list-style: none;
+	margin: 0px 0px;
 }
 
 .first{
@@ -23,3 +54,112 @@ header li{
 .last{
 	border-radius: 0px 4px 4px 0px;
 }
+
+/* ========================= Main ======================= */
+
+h1.heading{
+	color: #000;
+	text-align: left;
+	margin-left: 128px;
+	font-family: "cambria", sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	border-bottom: 1px solid #dedede;
+	display: block;
+	width: 900px;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+}
+
+h2.heading{
+	color: #000;
+	text-align: left;
+	font-family: "cambria", sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	padding-top: 250px;
+	padding-left: 25px;	
+}
+
+h2.heading-last{
+	color: #000;
+	text-align: left;
+	font-family: "cambria", sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 56px;
+	padding-top: 280px;
+	padding-left: 25px;	
+}
+
+
+
+th h3{
+	color: #000;
+	text-align: left;
+	font-family: "arial", sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	display: inline-block;
+	float: left;
+	padding-top: 250px
+}
+
+
+th h4{
+	color: #000;
+	text-align: left;
+	font-family: "arial", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+	padding-left: 25px;	
+}
+
+
+th{
+	height: 400px;
+	width: 260px;
+	vertical-align: top;
+	background: url(../img/compare_hero_ipad_2.jpg) top no-repeat;
+	position: relative;
+}
+
+
+th.first{
+	height: 400px;
+	width: 260px;
+	vertical-align: top;
+	background: none;
+	position: relative;
+}
+
+th.second{
+	height: 400px;
+	width: 260px;
+	vertical-align: top;
+	background: url(../img/compare_hero_ipad_mini.jpg) top no-repeat;
+	position: relative;
+}
+
+
+.ipad{
+	border: 1px solid red;
+	height: 400px;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
