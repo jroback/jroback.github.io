@@ -1,0 +1,25 @@
+/* header */
+
+li{
+	margin: 0px 0px;
+}
+
+header li{
+	display: inline-block;
+	padding: 5px 10px;
+	border-right: 1px solid black;
+	background: linear-gradient(#999 50%, #555 50%);
+	color: white;
+	text-shadow: 1px 1px 1px #000;
+	font-family: "cambria", "lucinda", sans-serif;
+	margin: none;
+}
+
+.first{
+	border-radius: 4px 0px 0px 4px;
+}
+
+
+.last{
+	border-radius: 0px 4px 4px 0px;
+}
