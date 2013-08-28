@@ -42,6 +42,7 @@
 	font-family: "HN-Bold";
 }
 
+
 /* ========================== Header ========================== */
 
 title{
@@ -74,7 +75,7 @@ title{
 	position: relative;
 }
 
-header nav{
+.account-links{
 	text-align: left;
 	line-height: 55px;
 	float: left;
@@ -82,7 +83,7 @@ header nav{
 	margin-left: 58px;
 }
 
-nav a{
+header nav a{
 	padding: 0 15px;
 	font-size: 12px;
 	color: #999;
@@ -108,6 +109,9 @@ nav a:hover{
 .main{
 	min-width: 960px;
 	margin: 0px auto;
+	overflow: visible;
+	display: block;
+	position: relative;
 
 }
 
@@ -236,8 +240,9 @@ input{
 
 .blog-container{
 	width: 962px;
+	height: 100%;
+	position: relative;
 	margin: 91 auto 0 auto;
-	/* border: 1px solid #bbbbbb; */
 }
 .blog-container h2{
 	font-size: 30px;
@@ -272,8 +277,7 @@ input{
 	height: 160px;
 	background: url(../images/place.jpg)
 	top center no-repeat;
-	position: absolute;
-	z-index: 99;
+	position: relative;
 	top: 0px;
 	left: 0px;
 	border-radius: 3px 3px 0px 0px;
@@ -285,7 +289,6 @@ input{
 	background: url(../images/post1-small.jpg)
 	top center no-repeat;
 	position: absolute;
-	z-index: 99;
 	top: 0px;
 	left: 0px;
 	border-radius: 3px 3px 0px 0px;
@@ -297,7 +300,6 @@ input{
 	background: url(../images/Post-2-small.jpg)
 	top center no-repeat;
 	position: absolute;
-	z-index: 99;
 	top: 0px;
 	left: 0px;
 	border-radius: 3px 3px 0px 0px;
@@ -313,7 +315,6 @@ input{
 	font-family: "HN-Bold", sans-serif;
 	width: 256px;
 	position: absolute;
-	z-index: 2;
 	top: 160px;
 	left: 1px;
 	box-shadow: 0px 0px 4px #aaa;
@@ -322,16 +323,14 @@ input{
 /* ========================== Blog Posts ========================== */
 
 .post-feature{
-	position: relative;
 	width: 930px;
-	height: 800px;
 	margin: 40px auto;
 }
 
 .post-cover-feat{
 	position: absolute;
 	margin-top: 35px;
-	width: 900px;
+	width: 930px;
 	height: 360px;
 	top: 0px;
 	left: 0px;
@@ -340,12 +339,10 @@ input{
 }
 
 .post-1-feat{
-	position: absolute;
 	margin-top: 35px;
-	width: 900px;
+	position: absolute;
+	width: 930px;
 	height: 360px;
-	top: 0px;
-	left: 0px;
 	background: url(../images/post1-big.jpg)
 	top center no-repeat;
 }
@@ -353,10 +350,8 @@ input{
 .post-2-feat{
 	position: absolute;
 	margin-top: 35px;
-	width: 900px;
+	width: 930px;
 	height: 360px;
-	top: 0px;
-	left: 0px;
 	background: url(../images/Post-2-big.jpg)
 	top center no-repeat;
 }
@@ -368,10 +363,10 @@ input{
 	color: #73c1af;
 	font-size: 12px;
 	font-family: "HN-Bold", sans-serif;
-	width: 900px;
+	width: 930px;
 	position: absolute;
-	z-index: 2;
 	top: 360px;
+	left: 0px;
 	line-height: 1.4em;
 }
 
@@ -390,6 +385,7 @@ input{
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 1.25em;
+	letter-spacing: -1px;
 	margin: 0px 0px 20px 0px;
 }
 
@@ -410,5 +406,73 @@ input{
 	display: inline-block;
 	float: right;
 	color: #999;
+}
+
+
+
+/* ========================== Footer ========================== */
+
+
+.footer-cont{
+	width: 100%;
+	background-color: rgba(255,255,255,1);
+	border-bottom: 5px solid #73c1af;
+	border-top: 1px solid rgba(198,198,198,.6);
+	margin-top: 75px;
+}
+
+
+.footer{
+	height: 40px;
+	width: 960px;
+	margin: 0px auto;
+	padding: 23px 20px;
+	margin-top: 20px;
+}
+
+.copyright{
+	text-decoration: none;
+	font-family: "HN-Light", sans-serif;
+	font-size: 12px;
+	color: #999;
+	float: left;
+	line-height: 20px;
+	padding: 0px 15px;
+}
+
+footer nav.account-links-foot{
+	float: left;
+	margin-right: 15px;
+}
+
+.nav-icon-foot{
+	font-size: 12px;
+	font-family: "Symbols";
+	color: #999;
+	line-height: 10px;
+	padding: 0px 2px;
+}
+
+footer nav a.left{
+	padding: 0 15px;
+	font-size: 12px;
+	color: #999;
+	font-family: "HN-Med", helvetica, sans-serif;
+	text-decoration: none;
+}
+
+footer nav.social-links-foot{
+	float: right;
+	font-size: 12px;
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+.social-links-foot a{
+	padding: 0 2px;
+	font-size: 12px;
+	color: #999;
+	font-family: "Symbols";
+	text-decoration: none;
 }
 
