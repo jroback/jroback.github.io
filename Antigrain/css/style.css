@@ -240,10 +240,10 @@ input{
 
 .blog-container{
 	width: 962px;
-	height: 100%;
 	position: relative;
 	margin: 91 auto 0 auto;
 }
+
 .blog-container h2{
 	font-size: 30px;
 	font-weight: 300;
@@ -325,22 +325,21 @@ input{
 .post-feature{
 	width: 930px;
 	margin: 40px auto;
+	display: block;
+	position: relative;
+	background-color: red;
 }
 
 .post-cover-feat{
-	position: absolute;
-	margin-top: 35px;
+	margin-top: 120px;
 	width: 930px;
 	height: 360px;
-	top: 0px;
-	left: 0px;
 	background: url(../images/place-big.jpg)
 	top center no-repeat;
 }
 
 .post-1-feat{
-	margin-top: 35px;
-	position: absolute;
+	margin-top: 120px;
 	width: 930px;
 	height: 360px;
 	background: url(../images/post1-big.jpg)
@@ -348,8 +347,7 @@ input{
 }
 
 .post-2-feat{
-	position: absolute;
-	margin-top: 35px;
+	margin-top: 120px;
 	width: 930px;
 	height: 360px;
 	background: url(../images/Post-2-big.jpg)
@@ -359,14 +357,12 @@ input{
 
 .post-label-big{
 	padding: 20px 0px;
-	background-color: #fff;
 	color: #73c1af;
 	font-size: 12px;
 	font-family: "HN-Bold", sans-serif;
 	width: 930px;
-	position: absolute;
-	top: 360px;
-	left: 0px;
+	float: left;
+	padding-top: 380px;
 	line-height: 1.4em;
 }
 
@@ -418,7 +414,8 @@ input{
 	background-color: rgba(255,255,255,1);
 	border-bottom: 5px solid #73c1af;
 	border-top: 1px solid rgba(198,198,198,.6);
-	margin-top: 75px;
+	margin-top: 80px;
+	float: left;
 }
 
 
@@ -449,7 +446,7 @@ footer nav.account-links-foot{
 	font-size: 12px;
 	font-family: "Symbols";
 	color: #999;
-	line-height: 10px;
+	line-height: 12px;
 	padding: 0px 2px;
 }
 
@@ -470,7 +467,7 @@ footer nav.social-links-foot{
 
 .social-links-foot a{
 	padding: 0 2px;
-	font-size: 12px;
+	font-size: 14px;
 	color: #999;
 	font-family: "Symbols";
 	text-decoration: none;
