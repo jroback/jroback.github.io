@@ -198,6 +198,10 @@ input{
 	box-shadow: 0px 3px 0px rgba(80,80,80,.6);
 }
 
+.ss-q-short:focus{
+	padding: 9px 10px;
+	margin-top: 22px;
+}
 
 .button{
 	float: left;
