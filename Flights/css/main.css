@@ -1,0 +1,135 @@
+
+.clear{
+	clear: both;
+}
+
+@font-face {
+  font-family: "HN-Bold";
+  src: url("../HelveticaNeueLTStd-Bd.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HN-Light";
+  src: url("../HelveticaNeueLTStd-Lt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HN-Med";
+  src: url("../HelveticaNeueLTStd-Md.otf") format("opentype");
+}
+
+body{
+	background-color: #fff9ad;
+}
+
+/* ========================= Main ======================= */
+
+
+
+
+table{
+	background-color: white;
+	margin: 30px 300px;
+	display: inline-block;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 2px 2px 2px #dfdfdf;
+}
+
+
+th{
+	text-align: center;
+	padding: 18px 0;
+	background: linear-gradient(#31a5f2 70%, #2b9be3);
+	color: white;
+	vertical-align: bottom;
+	line-height: 14px;
+	font-family: "HN-Med", sans-serif;
+	font-size: 16px;
+	text-shadow: 2px 2px 1px #666;
+	border-bottom: 1px inset rgba(100,100,100, .7);
+}
+
+td{
+	padding: 20px;
+	width: 225px;
+	border-top: 1px solid #bdbdbd;
+	border-right: 1px solid #bdbdbd;
+	background: linear-gradient(#fff 60%, #eee);
+}
+
+.depart{
+	border-left: 1px inset rgba(100,100,100, .7);
+	border-right: 1px inset rgba(100,100,100, .7);
+}
+
+.aa{
+	width: 175px;
+	background: linear-gradient(rgba(255,255,255,.01) 60%, #eee), url("../img/aa.png") top 20px left 20px no-repeat;
+}
+
+.delta{
+	width: 175px;
+	background: linear-gradient(#fff 60%, #eee);
+	background: linear-gradient(rgba(255,255,255,.01) 60%, #eee), url("../img/delta.png") top 20px left 20px no-repeat;
+}
+
+ul{
+	margin: 0px 0px 0px 50px;
+}
+
+.flight-number{
+	font-family: "HN-Med", sans-serif;
+	font-size: 18px;
+	color: #666;
+	padding: 0px 0px 3px 0px;
+}
+
+.airline{
+	font-family: "HN-Light", sans-serif;
+	font-size: 12px;
+	color: #999;
+	padding-bottom: 15px;
+}
+
+
+.status-ontime{
+	font-family: "HN-Med", sans-serif;
+	font-size: 16px;
+	color: #73af3d;
+}
+
+.status-delayed{
+	font-family: "HN-Med", sans-serif;
+	font-size: 16px;
+	color: #f6d248;
+}
+
+.status-cancelled{
+	font-family: "HN-Med", sans-serif;
+	font-size: 16px;
+	color: #d84243;
+}
+
+.airport{
+	font-family: "HN-Light", sans-serif;
+	font-size: 12px;
+	line-height: 1.3em;
+	color: #999;
+}
+
+.city{
+	font-family: "HN-Med", sans-serif;
+	font-size: 20px;
+	color: #1e8eda;
+	padding-bottom: 4px;
+}
+
+.time{
+	font-family: "HN-Med", sans-serif;
+	font-size: 18px;
+	color: #666;
+	padding-bottom: 10px;
+}
+
+
