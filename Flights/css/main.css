@@ -52,8 +52,8 @@ th{
 
 td{
 	padding: 20px;
-	width: 225px;
-	min-width: 225px;
+	width: 180px;
+	min-width: 180px;
 	border-top: 1px solid #bdbdbd;
 	border-right: 1px solid #bdbdbd;
 	background: linear-gradient(#fff 60%, #eee);
@@ -65,19 +65,19 @@ td{
 }
 
 .aa{
-	width: 175px;
-	min-width: 175px;
+	width: 160px;
+	min-width: 160px;
 	background: linear-gradient(rgba(255,255,255,.01) 60%, #eee), url("../img/aa.png") top 20px left 20px no-repeat;
 }
 
 .delta{
-	width: 175px;
-	min-width: 175px;
+	width: 160px;
+	min-width: 160px;
 	background: linear-gradient(#fff 60%, #eee);
 	background: linear-gradient(rgba(255,255,255,.01) 60%, #eee), url("../img/delta.png") top 20px left 20px no-repeat;
 }
 
-ul{
+.aa ul, .delta ul{
 	margin: 0px 0px 0px 50px;
 }
 
