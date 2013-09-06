@@ -106,12 +106,11 @@ nav a:hover{
 
 /* ========================== Main ========================== */
 
-.main{
-	min-width: 960px;
+/*.main{
+	width: 960px;
 	margin: 0px auto;
 	overflow: visible;
-	position: relative;
-
+	position: relative;/*
 }
 
 /* ===== Container BG img is covering the header. When time comes, change margin top to 90px========*/
@@ -120,9 +119,8 @@ nav a:hover{
 	height: 100%;
 	background: url(../images/ski_88.jpg) 
 	top center no-repeat;
-	margin: 0px auto 0px auto;
 	position: fixed;
-	z-index: 101;
+	z-index: 111;
 }
 
 .landing-logo{
@@ -139,8 +137,7 @@ nav a:hover{
 
 #mc_embed_signup{
 	text-align: center;
-	min-width: 530px;
-	max-width: 530px;
+	width: 560px;
 	margin: 150px auto 30px auto;
 	font-family: "HN-Med", sans-serif;
 	color: #000;
@@ -185,7 +182,7 @@ nav a:hover{
 }
 
 
-input{
+#entry_1049327117{
 	margin: 20px 0px 0px 35px;
 	float: left;
 	text-align: left;
@@ -196,7 +193,7 @@ input{
 	box-shadow: 0px 3px 0px rgba(80,80,80,.6);
 }
 
-.ss-q-short:focus{
+#entry_1049327117:focus{
 	padding: 9px 10px;
 	margin-top: 22px;
 }
@@ -204,13 +201,16 @@ input{
 .button{
 	float: left;
 	margin-left: 0px;
+	margin-top: 20px;
 	padding: 10px 10px;
+	font-size: 16px;
 	background-color: #73c1af;
 	color: white;
 	border-radius: 0px;
 	border: none;
 	text-shadow: 0px 1px 1px #333;
 	border-radius: 0px 3px 3px 0px;
+	box-shadow: 0px 3px 0px rgba(80,80,80,.6);
 }
 
 .button:hover{
@@ -468,10 +468,154 @@ footer nav.social-links-foot{
 }
 
 .social-links-foot a{
-	padding: 0 2px;
+	padding: 0 4px;
 	font-size: 14px;
 	color: #999;
 	font-family: "Symbols";
 	text-decoration: none;
 }
+
+/* ========================== Contact ========================== */
+
+
+.contact{
+	width: 960px;
+	margin: 140px auto 50px auto;
+}
+
+
+.half-container{
+	width: 450px;
+	height: 600px;
+	padding: 0px 15px;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.contact h2{
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 15px;
+	font-family: "HN-Light", sans-serif;
+	color: #666;
+}
+
+.contact h3{
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 80px;
+	font-family: "HN-Light", sans-serif;
+	color: #999;	
+}
+
+.contact h4{
+	font-size: 22px;
+	text-align: left;
+	margin-bottom: 20px;
+	font-family: "HN-Med", sans-serif;
+	color: #666;	
+}
+
+.contact p{
+	font-size: 14px;
+	width: 90%;
+	text-align: left;
+	margin-bottom: 15px;
+	line-height: 1.1em;
+	font-family: "HN-Light", sans-serif;
+	color: #999;
+}
+
+.contact i{
+	font-family: "Symbols";
+	font-size: 14px;
+	color: #666;
+	padding-right: 15px;
+}
+
+.contact li{
+	font-family: "HN-Med";
+	font-size: 14px;
+	color: #999;
+	line-height: 1.25em;
+}
+
+
+.address{
+	margin-left: 29px;
+	font-family: "HN-Light", sans-serif;
+	line-height: 1.1em;
+}
+
+
+#address-1{
+	margin-top: 15px;
+}
+
+
+.contact input{
+	margin: 0px 0px 20px 0px;
+	display: block;
+	text-align: left;
+	padding: 10px 10px;
+	border: 1px solid rgba(198,198,198,1);
+	border-radius: none;
+	font-size: 14px;
+	box-shadow: none;
+	width: 450px;
+}
+
+.contact textarea{
+	margin-bottom: 20px;
+	padding: 10px 10px;
+	border: 1px solid rgba(198,198,198,1);
+	width: 450px;
+	min-height: 80px;
+}
+
+form label{
+	text-align: left;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-family: "HN-Med", sans-serif;
+	color: #666;
+}
+
+#entry_161419473{
+	display: inline-block;
+	float: left;
+	width: 150px;
+}
+
+#ss-submit{
+	width: 70px;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	cursor: hand;
+	background-color: #73c1af;
+	color: white;
+	border: 1px solid #73c1af; 
+}
+
+#ss-submit:hover{
+	background-color: #abcbd8;
+	border: 1px solid #abebd8; 
+}
+
+#human-label{
+	display: block;
+	width: 450px;
+	margin-bottom: 10px;
+}
+
+#contact-name{
+	/*margin-top: 0px;/*
+}
+
+
+
 
