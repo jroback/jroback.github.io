@@ -189,7 +189,11 @@ nav a:hover{
 	padding: 10px 10px;
 	border: none;
 	font-size: 16px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
 	border-radius: 3px 0px 0px 3px;
+	-webkit-box-shadow: 0px 3px 0px rgba(80,80,80,.6);
+	-moz-box-shadow: 0px 3px 0px rgba(80,80,80,.6);
 	box-shadow: 0px 3px 0px rgba(80,80,80,.6);
 }
 
@@ -206,10 +210,15 @@ nav a:hover{
 	font-size: 16px;
 	background-color: #73c1af;
 	color: white;
-	border-radius: 0px;
 	border: none;
+	-webkit-text-shadow: 0px 1px 1px #333;
+	-moz-text-shadow: 0px 1px 1px #333;
 	text-shadow: 0px 1px 1px #333;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
 	border-radius: 0px 3px 3px 0px;
+	-webkit-box-shadow: 0px 3px 0px rgba(80,80,80,.6);
+	-moz-box-shadow: 0px 3px 0px rgba(80,80,80,.6);
 	box-shadow: 0px 3px 0px rgba(80,80,80,.6);
 }
 
@@ -360,7 +369,7 @@ nav a:hover{
 .post-label-big{
 	padding: 20px 0px;
 	color: #73c1af;
-	font-size: 12px;
+	font-size: 14px;
 	font-family: "HN-Bold", sans-serif;
 	width: 930px;
 	float: left;
@@ -369,10 +378,10 @@ nav a:hover{
 }
 
 .post-label-big p{
-	margin: 10px 0px 0px 0px;
+	margin: 15px 0px 15px 0px;
 	font-family: "HN-Light", sans-serif;
 	color: #666;
-	line-height: 1.66em;
+	line-height: 1.5em;
 }
 
 .post-label-big h5{
@@ -523,8 +532,8 @@ footer nav.social-links-foot{
 	font-size: 14px;
 	width: 90%;
 	text-align: left;
-	margin-bottom: 15px;
-	line-height: 1.1em;
+	margin-bottom: 20px;
+	line-height: 1.5em;
 	font-family: "HN-Light", sans-serif;
 	color: #999;
 }
@@ -610,10 +619,6 @@ form label{
 	display: block;
 	width: 450px;
 	margin-bottom: 10px;
-}
-
-#contact-name{
-	/*margin-top: 0px;/*
 }
 
 
