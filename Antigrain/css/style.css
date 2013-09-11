@@ -104,6 +104,7 @@ nav a:hover{
 	position: absolute;
 	top:6px;
 	margin-left: 4px;
+	padding-right: 15px;
 }
 
 
@@ -338,7 +339,6 @@ nav a:hover{
 	margin: 40px auto;
 	display: block;
 	position: relative;
-	background-color: red;
 }
 
 .post-cover-feat{
