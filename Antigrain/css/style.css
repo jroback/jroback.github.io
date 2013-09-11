@@ -437,7 +437,6 @@ nav a:hover{
 .ingredients{
 	float: left;
 	display: block;
-	height: 400px;
 	width: 250px;
 	margin: 15px 65px 15px 0px;
 }
@@ -456,7 +455,6 @@ nav a:hover{
 
 .directions-cont{
 	float: left;
-	height: 400px;
 	width: 600px;
 	margin: 15px 0px 15px 15px;
 }
