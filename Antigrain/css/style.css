@@ -42,6 +42,9 @@
 	font-family: "HN-Bold";
 }
 
+input{
+	-webkit-appearance: none;
+}
 
 /* ========================== Header ========================== */
 
@@ -224,7 +227,6 @@ nav a:hover{
 	background-color: #abebd8;
 	cursor: hand;
 }
-
 
 
 /* ========================== Blog Landing ========================== */
@@ -414,6 +416,79 @@ nav a:hover{
 }
 
 
+/* ========================== Recipies ========================== */
+
+.recipie-heading{
+	color: #666;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.cook-heading{
+	color: #666;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+	.last-item{
+		margin-bottom: 25px;
+	}
+
+	.cook-info li{
+		font-family: "HN-Bold";
+	}
+
+.ingredients{
+	float: left;
+	display: block;
+	height: 400px;
+	width: 250px;
+	margin: 15px 65px 15px 0px;
+}
+	.ingredients li{
+		color: #999;
+		font-size: 14px;
+		font-family: "HN-Light", sans-serif;
+		padding: 4px 0px;
+		line-height: 1.15em;
+	}
+
+	.ingredients i{
+		font-family: "Symbols";
+		margin-right: 5px;
+	}
+
+.directions-cont{
+	float: left;
+	height: 400px;
+	width: 600px;
+	margin: 15px 0px 15px 15px;
+}
+
+	.directions-cont li{
+		color: #999;
+		list-style: decimal;
+	}
+
+
+.rp-1-feat{
+	margin-top: 120px;
+	width: 930px;
+	height: 360px;
+	background: url(../images/tacos-big.jpg)
+	top center no-repeat;
+}
+
+.rp-1{
+	width: 288px;
+	height: 160px;
+	background: url(../images/tacos-small.jpg)
+	top center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 3px 3px 0px 0px;
+}
+
 
 /* ========================== Footer ========================== */
 
@@ -545,7 +620,7 @@ footer nav.social-links-foot{
 }
 
 .contact li{
-	font-family: "HN-Med";
+	font-family: "HN-Light";
 	font-size: 14px;
 	color: #999;
 	line-height: 1.25em;

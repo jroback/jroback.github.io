@@ -1,11 +1,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css"/>
 	<title>anti-grain | Grain-free foods</title>
 
 </head>
@@ -64,12 +65,13 @@
 
 <div id="contact-form" class="half-container">
 
-	<form action="https://docs.google.com/forms/d/1SgjC3mvptUBu6pHuc9spAuLE4pZsEeQ8jfosLRr15ug/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+	<form action="https://docs.google.com/forms/d/1SgjC3mvptUBu6pHuc9spAuLE4pZsEeQ8jfosLRr15ug/formResponse" method="POST" id="ss-form" target="_blank" onsubmit="refresh">
 		<label for="entry_1491374452">name:</label>
-		<input name="entry.1491374452" value="" id="entry_1491374452" placeholder="name">
+		<input name="entry.1491374452" value="" id="entry_1491374452" placeholder="name" required>
 
 		<label for="entry.270684114">e-mail address: (required)</label>
-		<input type="text" name="entry.270684114" value="" id="entry_270684114" placeholder="e-mail address" required>
+		<input type="email" name="entry.270684114" value="" class="validate[required,custom[email]]" id="entry_270684114" placeholder="e-mail address" required
+		data-errormessage="This is the fall-back error message."/>
 
 		<label for="entry.987482742">subject:</label>
 		<input type="text" name="entry.987482742" value="" id="entry_987482742" title="" placeholder="subject">
@@ -121,6 +123,12 @@
 		</div>
 	</div>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js" type="text/
+javascript"></script>
+
+<script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+
 
 </body>
 </html>
