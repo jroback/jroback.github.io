@@ -314,6 +314,17 @@ nav a:hover{
 	border-radius: 3px 3px 0px 0px;
 }
 
+.post-3{
+	width: 288px;
+	height: 160px;
+	background: url(../images/grating-small.jpg)
+	top center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 3px 3px 0px 0px;
+}
+
 .post-label{
 	padding: 15px;
 	margin-bottom: 35px;
@@ -336,6 +347,10 @@ nav a:hover{
 	margin: 40px auto;
 	display: block;
 	position: relative;
+}
+
+.body-image{
+	margin: 10px 0px;
 }
 
 .post-cover-feat{
@@ -362,6 +377,13 @@ nav a:hover{
 	top center no-repeat;
 }
 
+.post-3-feat{
+	margin-top: 120px;
+	width: 930px;
+	height: 360px;
+	background: url(../images/grating-big.jpg)
+	top center no-repeat;
+}
 
 .post-label-big{
 	padding: 20px 0px;
