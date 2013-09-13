@@ -698,12 +698,14 @@ form label{
 	cursor: hand;
 	background-color: #73c1af;
 	color: white;
-	border: 1px solid #73c1af; 
+	border: none;
+	padding: 11px 10px;
+	/*border: 1px solid #73c1af; */
 }
 
 #ss-submit:hover{
-	background-color: #abcbd8;
-	border: 1px solid #abebd8; 
+	background-color: #abebd8;
+	/*border: 1px solid #abebd8; */
 }
 
 #human-label{
