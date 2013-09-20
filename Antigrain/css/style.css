@@ -55,7 +55,7 @@ title{
 .nav-icon{
 	font-family: "Symbols";
 	font-size: 12px;
-	color: #999;
+	color: #bdbdbd;
 	line-height: 14px;
 	display: inline-block;
 }
@@ -64,17 +64,17 @@ title{
 	position: fixed;
 	top: 0px; left: 0px; right: 0px;
 	width: 100%;
-	background-color: rgba(255,255,255,.95);
-	border-top: 5px solid #73c1af;
-	border-bottom: 1px solid rgba(198,198,198,.6);
+	background-color: rgba(255,255,255,.97);
+	/*border-top: 5px solid #73c1af;*/
+	border-bottom: 1px inset rgba(198,198,198,.4);
 	z-index: 100;
 }
 
 .header{
-	height: 40px;
+	height: 36px;
 	width: 960px;
 	margin: 0px auto;
-	padding: 23px 20px;
+	padding: 21px 20px;
 	position: relative;
 }
 
@@ -86,12 +86,12 @@ title{
 
 header nav a{
 	padding: 0 15px;
-	font-size: 12px;
-	color: #999;
-	font-family: "HN-Light", helvetica, sans-serif;
+	font-size: 14px;
+	color: #777;
+	font-family: "HN-Med", helvetica, sans-serif;
 	text-decoration: none;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+	/*letter-spacing: 1px;*/
+	/*text-transform: uppercase;*/
 }
 
 nav a:hover{
@@ -100,7 +100,7 @@ nav a:hover{
 
 .logo{
 	float: left;
-	margin-top: -15px;
+	margin-top: -18px;
 	margin-left: 4px;
 }
 
@@ -513,7 +513,7 @@ nav a:hover{
 .footer-cont{
 	width: 100%;
 	background-color: rgba(255,255,255,1);
-	border-bottom: 5px solid #73c1af;
+	/*border-bottom: 5px solid #73c1af;*/
 	border-top: 1px solid rgba(198,198,198,.6);
 	margin-top: 80px;
 	float: left;
@@ -665,6 +665,7 @@ footer nav.social-links-foot{
 	border-radius: none;
 	font-size: 14px;
 	box-shadow: none;
+	border-radius: 4px;
 	width: 450px;
 }
 
@@ -673,6 +674,7 @@ footer nav.social-links-foot{
 	padding: 10px 10px;
 	border: 1px solid rgba(198,198,198,1);
 	width: 450px;
+	border-radius: 4px;
 	min-height: 80px;
 }
 
@@ -714,6 +716,6 @@ form label{
 	margin-bottom: 10px;
 }
 
-
+#media
 
 
