@@ -338,7 +338,7 @@ nav a:hover{
 .post-cover-feat{
 	margin-top: 120px;
 	width: 930px;
-	height: 360px;
+	/*height: 360px;*/
 	background: url(../images/place-big.jpg)
 	top center no-repeat;
 }
@@ -355,7 +355,7 @@ nav a:hover{
 		.post-feat img{
 			padding: 20px;
 			width: 890px;
-			height: 330px;
+			height: 400px;
 		}
 
 .post-label-big{
