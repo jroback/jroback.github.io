@@ -46,6 +46,10 @@ input{
 	-webkit-appearance: none;
 }
 
+body{
+	background-color: #f9f9f9;
+}
+
 /* ========================== Header ========================== */
 
 title{
@@ -284,46 +288,18 @@ nav a:hover{
 .post-cover{
 	width: 288px;
 	height: 160px;
-	background: url(../images/place.jpg)
+	/*background: url(../images/place.jpg)*/
 	top center no-repeat;
 	position: relative;
 	top: 0px;
 	left: 0px;
 	border-radius: 3px 3px 0px 0px;
 }
+	.post-cover img{
+		width: 288px;
+		height: 160px;
+	}
 
-.post-1{
-	width: 288px;
-	height: 160px;
-	background: url(../images/post1-small.jpg)
-	top center no-repeat;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 3px 3px 0px 0px;
-}
-
-.post-2{
-	width: 288px;
-	height: 160px;
-	background: url(../images/Post-2-small.jpg)
-	top center no-repeat;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 3px 3px 0px 0px;
-}
-
-.post-3{
-	width: 288px;
-	height: 160px;
-	background: url(../images/grating-small.jpg)
-	top center no-repeat;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 3px 3px 0px 0px;
-}
 
 .post-label{
 	padding: 15px;
@@ -350,7 +326,13 @@ nav a:hover{
 }
 
 .body-image{
-	margin: 10px 0px;
+	margin: 20px 0px;
+	width: 930px;
+	background-color: rgba(255,255,255,.95);
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px 1px rgba(198,198,198,.4);
+	/*background: url(../images/post1-big.jpg)*/
+	top center no-repeat;
 }
 
 .post-cover-feat{
@@ -361,29 +343,20 @@ nav a:hover{
 	top center no-repeat;
 }
 
-.post-1-feat{
+.post-feat{
 	margin-top: 120px;
 	width: 930px;
-	height: 360px;
-	background: url(../images/post1-big.jpg)
+	background-color: rgba(255,255,255,.95);
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px 1px rgba(198,198,198,.4);
+	/*background: url(../images/post1-big.jpg)*/
 	top center no-repeat;
 }
-
-.post-2-feat{
-	margin-top: 120px;
-	width: 930px;
-	height: 360px;
-	background: url(../images/Post-2-big.jpg)
-	top center no-repeat;
-}
-
-.post-3-feat{
-	margin-top: 120px;
-	width: 930px;
-	height: 360px;
-	background: url(../images/grating-big.jpg)
-	top center no-repeat;
-}
+		.post-feat img{
+			padding: 20px;
+			width: 890px;
+			height: 330px;
+		}
 
 .post-label-big{
 	padding: 20px 0px;
@@ -392,7 +365,8 @@ nav a:hover{
 	font-family: "HN-Bold", sans-serif;
 	width: 930px;
 	float: left;
-	padding-top: 380px;
+	padding-top: 30px;
+	/*padding-top: 380px;*/
 	line-height: 1.4em;
 }
 
@@ -485,26 +459,6 @@ nav a:hover{
 		color: #999;
 		list-style: decimal;
 	}
-
-
-.rp-1-feat{
-	margin-top: 120px;
-	width: 930px;
-	height: 360px;
-	background: url(../images/tacos-big.jpg)
-	top center no-repeat;
-}
-
-.rp-1{
-	width: 288px;
-	height: 160px;
-	background: url(../images/tacos-small.jpg)
-	top center no-repeat;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 3px 3px 0px 0px;
-}
 
 
 /* ========================== Footer ========================== */
