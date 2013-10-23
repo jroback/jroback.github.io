@@ -463,7 +463,33 @@ nav a:hover{
 	color: #999;
 }
 
+.post-list-title{
+	color: #555;
+	list-style: disc;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 35px;
+}
 
+.post-list-heading{
+	color: #555;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.post-list-directions{
+	color: #555;
+	font-size: 14px;
+	font-family: "HN-Light";
+	margin-left: 20px;
+	list-style: lower-roman;
+}
+
+.order-test-list{
+	margin-bottom: 40px;
+}
 
 /* ========================== Recipies ========================== */
 
