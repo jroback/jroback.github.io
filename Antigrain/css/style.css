@@ -736,7 +736,7 @@ form label{
 	width: 290px;
 	display: inline-block;
 	float: right;
-	background: #73c1af url('paper-plane.png') no-repeat center center;
+	background: #73c1af url('../images/paper-plane.png') no-repeat center center;
 	margin-left: 5px;
 	cursor: hand;
 	color: white;
