@@ -412,6 +412,7 @@ nav a:hover{
 .post-label-big{
 	padding: 20px 0px;
 	color: #73c1af;
+	border-radius: 0px;
 	font-size: 14px;
 	font-family: "HN-Bold", sans-serif;
 	width: 930px;
@@ -709,7 +710,7 @@ footer nav.social-links-foot{
 	padding: 10px 10px;
 	border: 1px solid rgba(198,198,198,1);
 	width: 450px;
-	border-radius: 2px;
+	border-radius: 2`px;
 	min-height: 80px;
 }
 
