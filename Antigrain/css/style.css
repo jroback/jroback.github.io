@@ -846,8 +846,13 @@ footer nav.social-links-foot{
 	display: none;
 }
 
+.logo{
+	margin-right: none;
+	padding-right: none;
+}
+
 .account-links{
-	text-align: center;
+	text-align: right;
 	line-height: 22px;
 	float: right;
 	width: 190px;
