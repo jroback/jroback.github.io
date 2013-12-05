@@ -359,6 +359,8 @@ nav a:hover{
 	box-shadow: 0px 0px 4px #aaa;
 }
 
+
+
 /* ========================== Blog Posts ========================== */
 
 .post-feature{
@@ -757,6 +759,116 @@ form label{
 	width: 450px;
 }
 
-#media
 
 
+/* ===== @ Media Tablet ==== */
+
+
+@media all and (max-width: 1000px) {
+  .blog-container {
+    width: 660px;
+}
+
+.footer{
+	width: 660px;
+	padding-right: 20px;
+}
+
+/* .nav-icon-foot{
+	display: none;
+} */
+
+footer nav.account-links-foot{
+	margin-right: 0px;
+}
+
+footer nav a.left{
+	padding: 0px 10px;
+}
+
+footer nav.social-links-foot{
+	padding-right: 32px;
+}
+
+.social-links-foot a{
+	float: left;
+}
+	
+.header{
+	width: 660px;
+}
+
+
+
+
+/* ===== @ Media Mobile ==== */
+
+
+@media all and (max-width: 700px) {
+  .blog-container {
+    width: 320px;
+}
+
+.footer{
+	width: 320px;
+	padding-right: 20px;
+}
+
+ .nav-icon-foot{
+	display: none;
+} 
+
+footer nav.account-links-foot{
+	margin-right: 0px;
+}
+
+footer nav a.left{
+	padding: 0px 10px;
+}
+
+footer nav.social-links-foot{
+	padding: none;
+	margin: none;
+	padding-top: 10px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.social-links-foot a{
+	float: left;
+}
+	
+.header{
+	width: 320px;
+}
+
+.nav-icon{
+	display: none;
+}
+
+.account-links{
+	text-align: center;
+	line-height: 22px;
+	float: right;
+	width: 190px;
+}
+
+header nav a{
+	padding: 0 8px;
+	font-size: 12px;
+}
+
+.footer-cont{
+	margin-top: 40px;
+}
+
+.copyright{
+	text-align: center;
+	float: none;
+	margin: 10px auto;
+}
+
+.footer{
+	text-align: center;
+	float: none;
+}
