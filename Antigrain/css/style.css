@@ -877,3 +877,8 @@ header nav a{
 	text-align: center;
 	float: none;
 }
+
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
