@@ -807,11 +807,11 @@ footer nav.social-links-foot{
 @media all and (max-width: 700px) {
   .blog-container {
     width: 320px;
+    margin: 0px auto;
 }
 
 .footer{
 	width: 320px;
-	padding-right: 20px;
 }
 
  .nav-icon-foot{
