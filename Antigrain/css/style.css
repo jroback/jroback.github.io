@@ -823,6 +823,7 @@ footer nav.social-links-foot{
 @media all and (max-width: 700px) {
   .blog-container {
     width: 308px;
+    padding: none;
     margin: 0px auto;
 }
 
