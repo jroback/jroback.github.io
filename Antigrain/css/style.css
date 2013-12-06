@@ -119,6 +119,16 @@ nav a:hover{
 	margin-left: 4px;
 }
 
+.logo-mobile{
+	float: left;
+	width: 100px;
+	height: 22px;
+	margin-top: -18px;
+	margin-left: 11px;
+	visibility: hidden;
+	display: none;
+}
+
 
 /* ========================== Main ========================== */
 
@@ -845,26 +855,25 @@ footer nav a.left{
 .header{
 	width: 320px;
 	height: 0px;
+	padding: none;
+	margin: none;
+}
+
+.header-cont{
+	padding: none;
+	margin: none;
 }
 
 .nav-icon{
 	display: none;
 }
 
-.logo{
-	margin-right: none;
-	padding-right: none;
-	width: 88px;
-	height: 51px;
-	float: left;
-}
 
 .account-links{
 	text-align: center;
-	line-height: 22px;
+	line-height: 8px;
 	float: left;
-	width: 225px;
-	margin-left: -5px;
+	
 }
 
 header nav a{
@@ -915,6 +924,21 @@ footer nav.social-links-foot{
 footer nav.social-links-foot{
 	padding-right: none;
 	padding-left: 32px;
+}
+
+.logo-mobile{
+	visibility: visible;
+	display: block;
+	margin-right: 8px;
+	padding: 10px 0;
+}
+
+.logo{
+	display: none;
+}
+
+#mobile-hide{
+	display: none;
 }
 
 @viewport {
