@@ -120,10 +120,10 @@ nav a:hover{
 }
 
 .logo-mobile{
-	float: right;
+	float: left;
 	width: 100px;
 	height: 22px;
-	margin-top: -18px;
+	margin-top: -12px;
 	visibility: hidden;
 	display: none;
 }
@@ -830,11 +830,13 @@ footer nav.social-links-foot{
 .blog-container h3 h4 h5 h6{
 		line-height: 1.25em;
 		margin: auto;
+		width: 288px;
 		padding: 0 10px;
 	}
 
 .post-wrapper{
 	float: both;
+	width: 288px;
 	margin-bottom: 44px;
 	padding-top: 10px;
 	padding-left: 10px; 
@@ -844,8 +846,8 @@ footer nav.social-links-foot{
 }
 
 .footer{
-	width: 308px;
-	padding: none;
+	width: 288px;
+	padding: 0px 10px;
 	text-align: center;
 }
 
@@ -871,13 +873,13 @@ footer nav a.left{
 .header{
 	width: 308px;
 	height: 0px;
-	padding: none;
+	padding: 10px 10px;
 	margin: 0 auto;
 }
 
 .header-cont{
 	padding: none;
-	margin: none;
+	margin: 0px auto;
 }
 
 .nav-icon{
@@ -887,7 +889,7 @@ footer nav a.left{
 
 .account-links{
 	text-align: center;
-	line-height: .5em;
+	line-height: 1.25em;
 	float: left;
 	
 }
