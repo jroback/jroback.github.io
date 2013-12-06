@@ -771,6 +771,10 @@ form label{
     width: 660px;
 }
 
+	.blog-container h3{
+		line-height: 1.25em;
+	}
+
 .footer{
 	width: 660px;
 	padding-right: 20px;
@@ -803,6 +807,7 @@ footer nav.social-links-foot{
 
 
 
+
 /* ===================== @ Media Mobile ====================== */
 
 
@@ -814,6 +819,8 @@ footer nav.social-links-foot{
 
 .footer{
 	width: 320px;
+	padding: none;
+	text-align: center;
 }
 
  .nav-icon-foot{
@@ -821,24 +828,19 @@ footer nav.social-links-foot{
 } 
 
 footer nav.account-links-foot{
-	margin-right: 0px;
+	float: none;
+	margin: none;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: center;
 }
+
 
 footer nav a.left{
 	padding: 0px 10px;
-}
-
-footer nav.social-links-foot{
-	padding: none;
-	margin: none;
-	padding-top: 10px;
 	text-align: center;
-	margin: 0px auto;
 }
 
-.social-links-foot a{
-	float: left;
-}
 	
 .header{
 	width: 320px;
@@ -867,6 +869,7 @@ header nav a{
 
 .footer-cont{
 	margin-top: 40px;
+	padding-bottom: 25px;
 }
 
 .copyright{
@@ -876,8 +879,35 @@ header nav a{
 }
 
 .footer{
+	margin-top: none;
 	text-align: center;
 	float: none;
+	padding-bottom: 35px;
+	padding-top: 5px;
+}
+
+footer nav.social-links-foot{
+	padding: none;
+	margin: none;
+	float: none;
+	padding-top: 10px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.social-links-foot a{
+	float: none;
+	margin-right: none;
+	margin-left: none;
+	padding-left: none;
+	padding-right: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer nav.social-links-foot{
+	padding-right: none;
+	padding-left: 32px;
 }
 
 @viewport {
