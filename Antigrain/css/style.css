@@ -875,11 +875,13 @@ footer nav a.left{
 	height: 0px;
 	padding: 10px 10px;
 	margin: 0 auto;
+
 }
 
 .header-cont{
 	padding: none;
 	margin: 0px auto;
+	background-color: #73c1af;
 }
 
 .nav-icon{
@@ -898,6 +900,7 @@ header nav a{
 
 	padding: 0 2px;
 	font-size: 11px;
+	color: #fff;
 }
 
 .footer-cont{
