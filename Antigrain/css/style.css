@@ -635,7 +635,7 @@ footer nav.social-links-foot{
 
 .half-container{
 	width: 450px;
-	height: 600px;
+	min-height: 60px;
 	padding: 0px 15px;
 	/*border: 1px solid red;*/
 	float: left;
@@ -784,6 +784,7 @@ form label{
 		line-height: 1.25em;
 	}
 
+
 .footer{
 	width: 660px;
 	padding-right: 20px;
@@ -813,15 +814,33 @@ footer nav.social-links-foot{
 	width: 660px;
 }
 
+.contact{
+	width: 660px;
+}
+
+.half-container{
+	width: 300px;
+}
+
+.contact input, .contact textarea{
+	width: 300px;
+}
+
+#ss-submit{
+	width: 145px;
+}
 
 
-
+#entry_161419473{
+	float: left;
+	width: 145px;
+}
 
 /* ===================== @ Media Mobile ====================== */
 
 
 @media all and (max-width: 700px) {
-  .blog-container{
+  .blog-container {
     width: 308px;
     padding: 0px 10px;
     margin: 0px auto 0px auto;
@@ -961,7 +980,7 @@ footer nav.social-links-foot{
 	visibility: visible;
 	display: block;
 	margin-right: 8px;
-	padding: 10px 10;
+	padding: 10px 10px;
 	float: left;
 }
 
@@ -972,6 +991,55 @@ footer nav.social-links-foot{
 #mobile-hide{
 	display: none;
 }
+
+
+.contact{
+width: 328px;
+	padding: 0px, 0px;
+	height: none;
+	margin: 0px auto;
+
+}
+
+.half-container{
+	width: none;
+	float: none;
+	margin: 0px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contact input, .contact textarea{
+	width: 288px;
+	padding: none;
+}
+
+.contact h2 h3 h4{
+	margin: 0px;
+	padding: 0px;
+}
+
+#contact-margin{
+	margin-top: 80px;
+}
+
+.contact p{
+	width: 100%;
+}
+
+#ss-submit{
+	width: 139px;
+	float: left;
+
+}
+
+
+#entry_161419473{
+	float: left;
+	width: 139px;
+	margin-right: 5px;
+}
+
 
 @viewport {
   width: device-width;
