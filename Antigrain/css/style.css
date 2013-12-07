@@ -308,10 +308,10 @@ nav a:hover{
 .blog-container{
 	width: 962px;
 	position: relative;
-	margin: 91 auto 0 auto;
+	margin: 91px auto 0px auto;
 }
 
-.blog-container h2{
+.heading{
 	font-size: 30px;
 	font-weight: 300;
 	text-align: center;
@@ -821,18 +821,28 @@ footer nav.social-links-foot{
 
 
 @media all and (max-width: 700px) {
-  .blog-container {
+  .blog-container{
     width: 308px;
     padding: 0px 10px;
-    margin: 0px auto;
+    margin: 0px auto 0px auto;
+
 }
 
-.blog-container h3 h4 h5 h6{
+.blog-container h2 h3 {
 		line-height: 1.25em;
-		margin: auto;
+		margin: 0px auto;
 		width: 288px;
 		padding: 0px;
 	}
+
+.blog-container h3{
+	margin-bottom: 15px
+}
+
+.heading{
+	margin-top: 80px;
+	font-size: 24px;
+}
 
 .post-wrapper{
 	float: both;
@@ -897,14 +907,13 @@ footer nav a.left{
 }
 
 header nav a{
-
 	padding: 0 2px;
 	font-size: 11px;
 	color: #fff;
 }
 
 .footer-cont{
-	margin-top: 40px;
+	margin-top: 30px;
 	padding-bottom: 25px;
 }
 
