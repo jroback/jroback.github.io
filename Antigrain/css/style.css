@@ -997,7 +997,7 @@ footer nav.social-links-foot{
 }
 
 .half-container{
-	width: none;
+	width: 288;
 	height: none;
 	margin-right: none;
 	border: none; 
@@ -1069,9 +1069,12 @@ ul li{
 #entry_161419473{
 	float: left;
 	width: 139px;
-	padding-right: 10px;
+	padding-right: none;
 }
 
+#human-label{
+	width: 258px;
+}
 
 @viewport {
   width: device-width;
