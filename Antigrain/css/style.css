@@ -1034,11 +1034,12 @@ ul li{
 
 
 #contact input, #contact textarea{
-	width: 288px;
+	width: 283px;
 	float: none;
 	padding: none;
-	margin-left: none;
-	margin-right: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 #contact h2 h3 h4{
