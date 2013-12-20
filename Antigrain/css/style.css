@@ -637,7 +637,6 @@ footer nav.social-links-foot{
 	width: 450px;
 	min-height: 60px;
 	padding: 0px 15px;
-	/*border: 1px solid red;*/
 	float: left;
 }
 
@@ -998,7 +997,7 @@ footer nav.social-links-foot{
 	height: none;
 	margin-right: none;
 	border: none; 
-	float: left;
+	float: none;
 	margin: 0px auto;
 	padding-right: none;
 	padding-left: none;
