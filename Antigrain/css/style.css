@@ -641,7 +641,7 @@ footer nav.social-links-foot{
 	float: left;
 }
 
-.contact h2{
+#contact-margin{
 	font-size: 30px;
 	font-weight: 300;
 	text-align: center;
@@ -651,7 +651,7 @@ footer nav.social-links-foot{
 	color: #666;
 }
 
-.contact h3{
+ #sub-heading{
 	font-size: 16px;
 	font-weight: 300;
 	text-align: center;
@@ -660,7 +660,7 @@ footer nav.social-links-foot{
 	color: #999;	
 }
 
-.contact h4{
+#contact h4{
 	font-size: 22px;
 	text-align: left;
 	margin-bottom: 20px;
@@ -669,7 +669,7 @@ footer nav.social-links-foot{
 	color: #666;	
 }
 
-.contact p{
+#contact p{
 	font-size: 14px;
 	width: 90%;
 	text-align: left;
@@ -679,14 +679,14 @@ footer nav.social-links-foot{
 	color: #999;
 }
 
-.contact i{
+#contact i{
 	font-family: "Symbols";
 	font-size: 14px;
 	color: #666;
 	padding-right: 15px;
 }
 
-.contact li{
+#contact li{
 	font-family: "HN-Light";
 	font-size: 14px;
 	color: #999;
@@ -706,7 +706,7 @@ footer nav.social-links-foot{
 }
 
 
-.contact input{
+#contact input{
 	margin: 0px 0px 20px 0px;
 	display: block;
 	text-align: left;
@@ -718,7 +718,7 @@ footer nav.social-links-foot{
 	width: 450px;
 }
 
-.contact textarea{
+#contact textarea{
 	margin-bottom: 20px;
 	padding: 10px 10px;
 	border: 1px solid rgba(198,198,198,1);
@@ -822,7 +822,7 @@ footer nav.social-links-foot{
 	width: 300px;
 }
 
-.contact input, .contact textarea{
+#contact input, #contact textarea{
 	width: 300px;
 }
 
@@ -997,42 +997,48 @@ body{
 	padding: none;
 }
 
-.contact{
-	width: 308px;
-	float: none;
-	padding: none;
-	height: none;
-	margin: none;
-	margin: 0px auto;
 
-}
+/*.contact{
+    width: 308px;
+    padding: 0px 10px;
+    margin: 0px auto 0px auto;
+}*/
 
 .half-container{
 	width: none;
 	float: none;
 	margin: 0px auto;
+	padding-right: none;
+	padding-left: none;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-.contact input, .contact textarea{
+#contact input, #contact textarea{
 	width: 288px;
+	float: none;
 	padding: none;
 	margin-left: none;
 	margin-right: none;
 }
 
-.contact h2 h3 h4{
-	margin: 0px;
-	padding: 0px;
+#contact h2 h3 h4{
+	margin: none;
+	margin: 0px auto;
+	padding: none;
+	text-align: center;
+	width: 308px;
+
 }
 
 #contact-margin{
 	margin-top: 80px;
 }
 
-.contact p{
+#contact p{
 	width: 288px;
+	padding: none;
+	margin: none;
 }
 
 #ss-submit{
