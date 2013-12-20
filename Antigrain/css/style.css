@@ -994,8 +994,8 @@ footer nav.social-links-foot{
 
 
 .contact{
-width: 328px;
-	padding: 0px, 0px;
+width: 308px;
+	padding: 10px, 10px;
 	height: none;
 	margin: 0px auto;
 
@@ -1012,6 +1012,8 @@ width: 328px;
 .contact input, .contact textarea{
 	width: 288px;
 	padding: none;
+	margin-left: none;
+	margin-right: none;
 }
 
 .contact h2 h3 h4{
@@ -1024,7 +1026,7 @@ width: 328px;
 }
 
 .contact p{
-	width: 100%;
+	width: 288px;
 }
 
 #ss-submit{
