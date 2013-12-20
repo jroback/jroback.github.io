@@ -1005,14 +1005,26 @@ body{
 }*/
 
 .half-container{
-	width: none;
-	float: none;
+	width: 328px;
+	height: none;
+	margin-right: none;
+	border: none; 
+	float: left;
 	margin: 0px auto;
 	padding-right: none;
 	padding-left: none;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+ul li{
+	width: none;
+	margin: none;
+	float: none;
+	padding: none;
+	margin: 0px auto;
+}
+
 
 #contact input, #contact textarea{
 	width: 288px;
@@ -1027,7 +1039,7 @@ body{
 	margin: 0px auto;
 	padding: none;
 	text-align: center;
-	width: 308px;
+	width: 288px;
 
 }
 
@@ -1051,7 +1063,7 @@ body{
 #entry_161419473{
 	float: left;
 	width: 139px;
-	margin-right: 5px;
+	padding-right: 10px;
 }
 
 
