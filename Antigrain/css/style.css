@@ -993,15 +993,8 @@ footer nav.social-links-foot{
 }
 
 
-
-/*.contact{
-    width: 308px;
-    padding: 0px 10px;
-    margin: 0px auto 0px auto;
-}*/
-
 .half-container{
-	width: 228px;
+	width: 288px;
 	height: none;
 	margin-right: none;
 	border: none; 
@@ -1019,7 +1012,7 @@ ul li{
 	float: none;
 	padding: none;
 	margin: 0px auto;
-	display: inline-block;
+	display: block;
 }
 
 
