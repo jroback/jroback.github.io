@@ -992,11 +992,17 @@ footer nav.social-links-foot{
 	display: none;
 }
 
+body{
+	margin: none;
+	padding: none;
+}
 
 .contact{
-width: 308px;
-	padding: 10px, 10px;
+	width: 308px;
+	float: none;
+	padding: none;
 	height: none;
+	margin: none;
 	margin: 0px auto;
 
 }
