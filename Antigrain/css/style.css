@@ -993,7 +993,20 @@ footer nav.social-links-foot{
 
 
 .half-container{
-	width: 288px;
+	width: none;
+	height: none;
+	margin-right: none;
+	border: none; 
+	float: none;
+	margin: 0px auto;
+	padding-right: none;
+	padding-left: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#contact-form{
+	width: none;
 	height: none;
 	margin-right: none;
 	border: none; 
