@@ -1182,7 +1182,7 @@ label{
 }
 
 		.post-label-big h5{
-			max-width: 150px;
+			max-width: 179px;
 			min-width: 80px;
 			font-size: 14px;
 			margin-right: 3px;
@@ -1195,15 +1195,15 @@ label{
 		}
 
 .cal-icon-big{
-	font-size: 11px;
-	line-height: 13px;
+	font-size: 10px;
+	line-height: 10px;
 	padding-right: 7px;
 	margin-left: 0px; 
 }
 
 .date-stamp-big{
-	font-size: 11px;
-	line-height: 16px;
+	font-size: 10px;
+	line-height: 10px;
 	margin-left: 0px;
 
 
