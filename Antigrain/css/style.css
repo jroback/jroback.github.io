@@ -375,11 +375,11 @@ nav a:hover{
 /* ========================== Blog Posts ========================== */
 
 .post-feature{
-	width: 980px;
+	max-width: 980px;
+	height: 0px;
 	padding: 0px 15px;
 	margin: 30px auto;
 	display: block;
-	z-index: 2;
 	background-color: rgba(255,255,255,.95);
 	overflow: visible;
 	position: relative;
@@ -396,29 +396,21 @@ nav a:hover{
 		width: 930px;
 	}
 
-.post-cover-feat{
-	margin-top: 120px;
-	width: 930px;
-	/*height: 360px;*/
-	background: url(../images/place-big.jpg)
-	top center no-repeat;
-}
 
 .post-feat{
 	margin-top: 78px; /* from 110px */
 	width: 100%; /* from 930px */
-	height: 575px;
+	height: 0px;
 	display: block;
-	z-index: -1;
-	overflow: hidden;
+	position: relative;
+	padding-bottom: 50%;
 	background-color: rgba(255,255,255,.95);
-	/*border-radius: 4px;*/
-	/*box-shadow: 0px 1px 1px 1px rgba(198,198,198,.4);*/
-	/*background: url(../images/post1-big.jpg)*/
-	top center no-repeat;
+
 }
 		.post-feat img{
-			/*padding: 20px;*/
+			position: absolute;
+			top: center no-repeat;
+			height: 100%;
 			width: 100%; /* from 890px*/
 		}
 
@@ -428,14 +420,13 @@ nav a:hover{
 	border-radius: 0px;
 	font-size: 14px;
 	font-family: "HN-Bold", sans-serif;
-	width: 930px;
+	max-width: 930px;
 	float: left;
 	background-color: rgba(255,255,255,.9);
 	margin-top: -150px;
 	padding-top: 30px;
 	padding-left: 25px;
 	padding-right: 25px;
-	/*padding-top: 380px;*/
 	line-height: 1.4em;
 }
 
@@ -562,11 +553,13 @@ nav a:hover{
 
 .footer-cont{
 	width: 100%;
+	height: 0px;
 	background-color: rgba(255,255,255,1);
 	/*border-bottom: 5px solid #73c1af;*/
 	border-top: 1px solid rgba(198,198,198,.6);
 	margin-top: 80px;
 	float: left;
+
 }
 
 
@@ -835,6 +828,57 @@ footer nav.social-links-foot{
 	width: 145px;
 }
 
+/* ==== Blog Detail ======*/
+
+
+.post-feat{
+	height: 0px;
+	float: none;
+	background-color: none;
+	overflow: visible;
+	position: relative;
+}
+
+	.post-feat img{
+		position: absolute;
+		top: center no-repeat;
+	}
+
+.post-cover-feat{
+	display: none;
+}
+
+.post-feature{
+	max-width: 680px;
+	padding-top: 20px;
+	margin: none;
+	height: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin: 0px auto;
+}
+
+.post-label-big{
+	position: static;
+	max-width: 680px;
+	background-color: #fff;
+	margin-top: 0px;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	/*padding-top: 380px;*/
+	line-height: 1.4em;
+	display: block;
+}
+
+		.post-label-big h5{
+			width: 400px;
+			font-size: 24;
+		}	
+
+
+
 /* ===================== @ Media Mobile ====================== */
 
 
@@ -1089,6 +1133,77 @@ label{
 #human-label{
 	width: 258px;
 }
+
+/* ==== Blog Detail ======*/
+
+
+.post-feat{
+	margin-top: 40px;
+	height: 0px;
+	float: none;
+	background-color: none;
+	overflow: visible;
+	position: relative;
+}
+
+	.post-feat img{
+		position: absolute;
+		top: center no-repeat;
+	}
+
+.post-cover-feat{
+	display: none;
+}
+
+.post-feature{
+	max-width: 480px;
+	min-width: 278px;
+	padding-top: 15px;
+	margin: none;
+	height: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin: 0px auto;
+}
+
+.post-label-big{
+	position: static;
+	max-width: 480px;
+	min-width: 278px;
+	background-color: #fff;
+	margin-top: 0px;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*padding-top: 380px;*/
+	line-height: 1.4em;
+	display: block;
+}
+
+		.post-label-big h5{
+			max-width: 200px;
+			min-width: 80px;
+			font-size: 14px;
+			margin-right: 3px;
+		}	
+
+		.post-label-big p{
+			margin: none;
+			font-size: 13px;
+			letter-spacing: 0px;
+		}
+
+.cal-icon-big{
+	font-size: 12px;
+	line-height: 16px;
+	padding-right: 7px; 
+}
+
+.date-stamp-big{
+	font-size: 12px;
+	line-height: 16px;
+
 
 @viewport {
   width: device-width;
