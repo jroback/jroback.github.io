@@ -1196,13 +1196,15 @@ label{
 
 .cal-icon-big{
 	font-size: 11px;
-	line-height: 14px;
-	padding-right: 7px; 
+	line-height: 13px;
+	padding-right: 7px;
+	margin-left: 0px; 
 }
 
 .date-stamp-big{
 	font-size: 11px;
 	line-height: 16px;
+	margin-left: 0px;
 
 
 @viewport {
