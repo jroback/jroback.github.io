@@ -877,6 +877,17 @@ footer nav.social-links-foot{
 			font-size: 24;
 		}	
 
+/* ======= Recipies ======= */
+
+
+.directions-cont{
+	margin-left: 0px;
+}
+
+
+	.directions-cont li{
+		list-style-position: inside;
+	}
 
 
 /* ===================== @ Media Mobile ====================== */
@@ -1205,6 +1216,75 @@ label{
 	font-size: 10px;
 	line-height: 10px;
 	margin-left: 0px;
+}
+
+/* ========================== Recipies ========================== */
+
+.recipie-heading{
+	font-size: 13px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	width: 288px;
+}
+
+.cook-heading{
+	font-size: 13px;
+	margin-bottom: 5px;
+	width: 288px;
+}
+	.last-item{
+		margin-bottom: 15px;
+	}
+
+	.cook-info ul li{
+		font-family: "HN-Bold";
+		width: 288px;
+		margin: none;
+	}
+
+	.cook-info li{
+		display: inline;
+		width: 0px;
+		margin: none;
+		padding: 1px;
+	}
+
+.ingredients{
+	float: left;
+	display: block;
+	max-width: 288px;
+	min-width: 100px;
+	margin: 10px 0px 10px 0px;
+}
+	.ingredients li{
+		color: #999;
+		font-size: 12px;
+		font-family: "HN-Light", sans-serif;
+		padding: 4px 1px;
+		line-height: 1.15em;
+		margin: none;
+	}
+
+	.ingredients i{
+		font-family: "Symbols";
+		margin-right: 5px;
+	}
+
+.directions-cont{
+	float: left;
+	width: 0px;
+	margin: none;
+	width: 0px;
+	max-width: 480px;
+	min-width: 288px
+}
+
+	.directions-cont li{
+		max-width: 278px;
+		min-width: 278px;
+		list-style-position: inside;
+	}
+
 
 
 @viewport {
