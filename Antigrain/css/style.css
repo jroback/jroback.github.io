@@ -1182,7 +1182,7 @@ label{
 }
 
 		.post-label-big h5{
-			max-width: 200px;
+			max-width: 180px;
 			min-width: 80px;
 			font-size: 14px;
 			margin-right: 3px;
@@ -1196,7 +1196,7 @@ label{
 
 .cal-icon-big{
 	font-size: 12px;
-	line-height: 16px;
+	line-height: 14px;
 	padding-right: 7px; 
 }
 
