@@ -844,6 +844,18 @@ footer nav.social-links-foot{
 		top: center no-repeat;
 	}
 
+.body-image{
+	height: 0px;
+	width: 100%;
+	position: relative;
+	padding-bottom: 52%;
+}
+	.body-image img{
+		position: absolute;
+		top: center no-repeat;
+		max-width: 100%;
+	}
+
 .post-cover-feat{
 	display: none;
 }
@@ -898,7 +910,10 @@ footer nav.social-links-foot{
     width: 308px;
     padding: 0px 10px;
     margin: 0px auto 0px auto;
+}
 
+ul{
+	font-size: 12px;
 }
 
 .blog-container h2 h3 {
@@ -1236,7 +1251,7 @@ label{
 		margin-bottom: 15px;
 	}
 
-	.cook-info ul li{
+	.cook-info ul {
 		font-family: "HN-Bold";
 		width: 288px;
 		margin: none;
@@ -1244,9 +1259,11 @@ label{
 
 	.cook-info li{
 		display: inline;
+		font-family: "HN-Bold";
+		width: 288px;
 		width: 0px;
 		margin: none;
-		padding: 1px;
+		padding: 2px;
 	}
 
 .ingredients{
@@ -1285,6 +1302,14 @@ label{
 		list-style-position: inside;
 	}
 
+
+.post-list-title{
+	font-size: 14px;
+}
+
+.post-list-heading, .post-list-directions{
+	font-size: 12px;
+}
 
 
 @viewport {
