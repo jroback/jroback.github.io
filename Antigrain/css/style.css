@@ -267,6 +267,10 @@ nav a:hover{
 
 /* ========================== Blog Landing ========================== */
 
+.blog-container a{
+	text-decoration: none;
+}
+
 .tag-icon{
 	font-family: "Symbols";
 	font-size: 12px;
@@ -767,7 +771,7 @@ form label{
 /* =================== @ Media Tablet ======================== */
 
 
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .blog-container {
     width: 660px;
 }
@@ -905,7 +909,7 @@ footer nav.social-links-foot{
 /* ===================== @ Media Mobile ====================== */
 
 
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .blog-container {
     width: 308px;
     padding: 0px 10px;
