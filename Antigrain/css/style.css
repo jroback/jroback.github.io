@@ -561,6 +561,10 @@ nav a:hover{
 	margin: 16px 16px 44px 16px;
 }
 
+	.product-wrapper a{
+		color: #73c1af;
+		text-decoration: none;
+	}
 
 .product-cover{
 	width: 288px;
