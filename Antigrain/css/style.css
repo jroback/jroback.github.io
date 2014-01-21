@@ -74,7 +74,7 @@ title{
 }
 
 .header-cont{
-	position: fixed;
+	position: absolute;
 	top: 0px; left: 0px; right: 0px;
 	width: 100%;
 	background-color: rgba(255,255,255,.97);
@@ -1006,7 +1006,7 @@ ul{
 	font-size: 24px;
 }
 
-.post-wrapper{
+.post-wrapper .product wrapper{
 	float: both;
 	width: 288px;
 	margin-bottom: 44px;
@@ -1051,6 +1051,7 @@ footer nav a.left{
 }
 
 .header-cont{
+	position: fixed;
 	padding: none;
 	margin: 0px auto;
 	background-color: #73c1af;
