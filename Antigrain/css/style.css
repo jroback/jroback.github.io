@@ -234,7 +234,7 @@ nav a:hover{
 		#mce-EMAIL:focus{
 			padding: 9px 10px;
 			margin-top: 22px;
-			font-size: 12px;
+		
 }
 
 .button{
@@ -554,6 +554,26 @@ nav a:hover{
 
 /* ========================== Products ========================== */
 
+.page-hero{
+	margin-top: 78px; /* from 110px */
+	width: 100%; /* from 930px */
+	height: 0px;
+	display: block;
+	position: relative;
+	padding-bottom: 22%;
+	background-color: none;
+
+}
+		.page-hero img{
+			position: absolute;
+			top: center no-repeat;
+			height: 100%;
+			min-height: 300px;
+			max-height: 400px;
+			width: 100%; /* from 890px*/
+		}
+
+
 .product-wrapper{
 	position: relative;
 	width: 288px;
@@ -588,12 +608,13 @@ nav a:hover{
 	color: #73c1af;
 	font-size: 14px;
 	line-height: 1.25em;
+	text-align: center;
 	font-family: "HN-Bold", sans-serif;
 	width: 256px;
 	position: absolute;
 	top: 424px;
 	left: 1px;
-	box-shadow: 0px 0px 2px #aaa; 
+	/*box-shadow: 0px 0px 2px #aaa; */
 }
 
 
@@ -602,21 +623,22 @@ nav a:hover{
 	font-size: 16px;
 	font-style: italic;
 	display: inline-block;
-	float: left;
-	margin-top: 15px;
+	text-align: center;
+	margin-top: 7px;
+	margin-right: 5px;
 	color: #999;
 }
 
 .buy-stamp{
-	line-height: -3px;
 	font-family: "HN-Med", sans-serif;
 	font-size: 12px;
 	display: inline-block;
-	float: right;
+	text-align: center;
+	margin-left: 5px;
 	text-transform: uppercase;
 	border-radius: 3px;
 	background-color: #73c1af;
-	margin-top: 7px;
+	margin-top: 5px;
 	padding: 3px 8px 0px 8px;
 	color: #fff;
 }
@@ -918,6 +940,22 @@ footer nav.social-links-foot{
 		position: absolute;
 		top: center no-repeat;
 	}
+
+.page-hero{
+	overflow: visible;
+	position: relative;
+	padding-bottom: 25%;
+	background-color: none;
+
+}
+		.page-hero img{
+			position: absolute;
+			top: center no-repeat;
+			height: 100%;
+			min-height: 250px;
+			max-height: 299px;
+			width: 100%; /* from 890px*/
+		}
 
 .body-image{
 	height: 0px;
@@ -1252,6 +1290,24 @@ label{
 		position: absolute;
 		top: center no-repeat;
 	}
+
+
+.page-hero{
+	margin-top: 40px;
+	overflow: visible;
+	position: relative;
+	padding-bottom: 40%;
+	background-color: none;
+
+}
+		.page-hero img{
+			position: absolute;
+			top: center no-repeat;
+			height: 100%;
+			min-height: 175px;
+			max-height: 249px;
+			width: 100%; /* from 890px*/
+		}
 
 .post-cover-feat{
 	display: none;
