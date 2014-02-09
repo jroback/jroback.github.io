@@ -568,8 +568,8 @@ nav a:hover{
 			position: absolute;
 			top: center no-repeat;
 			height: 100%;
-			min-height: 300px;
-			max-height: 400px;
+			min-height: 400px;
+			max-height: 450px;
 			width: 100%; /* from 890px*/
 		}
 
@@ -952,8 +952,8 @@ footer nav.social-links-foot{
 			position: absolute;
 			top: center no-repeat;
 			height: 100%;
-			min-height: 250px;
-			max-height: 299px;
+			min-height: 300px;
+			max-height: 350px;
 			width: 100%; /* from 890px*/
 		}
 
@@ -1297,6 +1297,8 @@ label{
 	overflow: visible;
 	position: relative;
 	padding-bottom: 40%;
+	margin-right: none;
+	padding: none;
 	background-color: none;
 
 }
@@ -1306,6 +1308,8 @@ label{
 			height: 100%;
 			min-height: 175px;
 			max-height: 249px;
+			margin-right: none;
+			padding: none;
 			width: 100%; /* from 890px*/
 		}
 
