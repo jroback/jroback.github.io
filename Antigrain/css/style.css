@@ -1293,8 +1293,8 @@ label{
 	overflow: visible;
 	position: relative;
 	padding-bottom: 40%;
-	margin-right: none;
-	padding: none;
+	margin-right: 0px;
+	padding-right: 0px;
 	background-color: none;
 
 }
@@ -1302,8 +1302,8 @@ label{
 			position: absolute;
 			top: center no-repeat;
 			max-height: 285px;
-			margin-right: none;
-			padding: none;
+			margin-right: 0px;
+			padding-right: 0px;
 			width: 100%; /* from 890px*/
 		}
 
