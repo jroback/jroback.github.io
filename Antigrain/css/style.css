@@ -59,10 +59,6 @@ body{
 	background-color: #ffffff; /* from #f9f9f9 */
 }
 
-section{
-	padding: none;
-	margin: none;
-}
 /* ========================== Header ========================== */
 
 title{
@@ -1021,7 +1017,7 @@ footer nav.social-links-foot{
 @media screen and (max-width: 700px) {
   .blog-container {
     width: 308px;
-    padding: 0px 10px;
+    padding: 0px 0px;
     margin: 0px auto 0px auto;
 }
 
