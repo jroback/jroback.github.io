@@ -567,8 +567,6 @@ nav a:hover{
 		.page-hero img{
 			position: absolute;
 			top: center no-repeat;
-			height: 100%;
-			min-height: 400px;
 			max-height: 450px;
 			width: 100%; /* from 890px*/
 		}
@@ -951,9 +949,7 @@ footer nav.social-links-foot{
 		.page-hero img{
 			position: absolute;
 			top: center no-repeat;
-			height: 100%;
-			min-height: 300px;
-			max-height: 350px;
+			max-height: 400px;
 			width: 100%; /* from 890px*/
 		}
 
@@ -1305,9 +1301,7 @@ label{
 		.page-hero img{
 			position: absolute;
 			top: center no-repeat;
-			height: 100%;
-			min-height: 225px;
-			max-height: 249px;
+			max-height: 285px;
 			margin-right: none;
 			padding: none;
 			width: 100%; /* from 890px*/
