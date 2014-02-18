@@ -880,9 +880,12 @@ form label{
 /* =================== Terms ======================== */
 
 .terms-container{
-	margin: 15px 0px 15px 0px;
+	position: relative;
+	width: 100%;
+	margin: 15px auto;
 	color: #666;
 	line-height: 1.25em;
+	padding: 0px 10px;
 }
 
 .terms-container p, .terms-container li{
@@ -911,14 +914,13 @@ form label{
 
 
 @media screen and (max-width: 1000px) {
-  .blog-container {
+  .blog-container{
     width: 660px;
 }
 
 	.blog-container h3{
 		line-height: 1.25em;
 	}
-
 
 .footer{
 	width: 660px;
@@ -1063,11 +1065,12 @@ footer nav.social-links-foot{
 
 
 @media screen and (max-width: 700px) {
-  .blog-container {
+  .blog-container{
     width: 308px;
     padding: 0px 0px;
     margin: 0px auto 0px auto;
 }
+
 
 ul{
 	font-size: 12px;
