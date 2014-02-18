@@ -1496,6 +1496,16 @@ label{
 }
 
 
+/* =================== Terms ======================== */
+
+
+.terms-container{
+	padding: 0px 10px;
+}
+
+
+
+
 @viewport {
   width: device-width;
   zoom: 1;
