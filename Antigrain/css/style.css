@@ -667,7 +667,6 @@ nav a:hover{
 .product-name{
 	color: #73c1af;
 	display: block;
-	float: left;
 	font-family: "HN-Med", sans-serif;
 	font-size: 36px;
 	font-weight: 600;
@@ -676,15 +675,90 @@ nav a:hover{
 	margin: 0px 0px 20px 0px;
 }
 
+
+.product-hero-image{
+	width: 100%;
+	height: 0px;
+	display: block;
+	position: relative;
+}
+
+		.product-hero-image img{
+			position: absolute;
+			top: center no-repeat;
+			width: 100%;
+		}
+
+#contains{
+	margin-bottom: -5px;
+	font-family: "HN-Med", sans-serif;
+	color: #666;
+	font-size: 12px;
+}
+
+#contact form #pdp-qty{
+	width: 35%;
+	margin-right: 5%;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+#contact form #pdp-buy{
+	background-color: #73c1af;
+	width: 60%;
+	float: left;
+	border: none;
+	color: #fff;
+	text-align: center;
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:16px;
+    color: #fff;
+    background-color: #999;
+    text-align:center;
+    position:relative;
+}
+
+input[type=number]::-webkit-inner-spin-button:before,
+input[type=number]::-webkit-inner-spin-button:after {
+    content: "^";
+    position:absolute;
+    text-align: center;
+    right: 4px;
+    font-family:"HN-Bold", sans-serif;
+    line-height: 14px;
+}
+
+input[type=number]::-webkit-inner-spin-button:before {
+    top:3px;
+}
+
+input[type=number]::-webkit-inner-spin-button:after {
+    bottom:3px;
+    -webkit-transform: rotate(180deg);
+}
+
+
 					/* ==== Nutrition Table ====== */
+
+#facts-container{
+	padding: 0px 15px;
+	float: right;
+}
 
 .calories{
 	font-size: 14px;
 	text-align: left;
 	border-bottom: 5px solid #999;
 	margin-bottom: 3px;
-	width: 45%;
-	margin-right: 10%;
+	width: 47.5%;
+	margin-right: 5%;
 	float: left;
 }
 
@@ -693,7 +767,7 @@ nav a:hover{
 	text-align: left;
 	border-bottom: 5px solid #999;
 	margin-bottom: 3px;
-	width: 45%;
+	width: 47.5%;
 	color: #fff;
 	float: left;
 }
@@ -728,6 +802,7 @@ nav a:hover{
 
 #nutrition{
 	border-bottom: none;
+	margin-top: 25px;
 }
 
 
@@ -764,22 +839,22 @@ td strong{
 .elements{
 	float: left;
 	font-size: 11px;
-	width: 45%;
+	width: 47.5%;
 }
 
 .elements2{
 	float: right;
 	border-bottom: 5px solid #999;
 	font-size: 11px;
-	width: 45%;
-	margin-left: 10%;
+	width: 47.5%;
+	margin-left: 5%;
 }
 
 .vitamins{
 	float: right;
 	font-size: 11px;
-	width: 45%;
-	margin-left: 10%;
+	width: 47.5%;
+	margin-left: 5%;
 }
 
 .nutrition-facts{
@@ -1007,11 +1082,14 @@ form label{
 	margin-left: 5px;
 	cursor: hand;
 	color: white;
-	border: 1px solid #73c1af;
 	border: none;
 	text-align: center;
 	padding: 11px 10px;
+}
 
+
+#contact #ss-submit{
+	border: none;
 }
 
 #ss-submit:hover{
@@ -1216,9 +1294,8 @@ footer nav.social-links-foot{
 .product-name{
 	color: #73c1af;
 	display: block;
-	float: left;
 	font-family: "HN-Med", sans-serif;
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: 600;
 	line-height: 1.25em;
 	letter-spacing: -1px;
@@ -1226,6 +1303,15 @@ footer nav.social-links-foot{
 }
 
 					/* ==== Nutrition Table ====== */
+
+#facts-container{
+	width: 630px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
 
 .calories{
 	font-size: 14px;
@@ -1754,6 +1840,23 @@ label{
 
 .post-list-heading, .post-list-directions{
 	font-size: 12px;
+}
+
+
+/* =================== PDP ======================== */
+
+
+.product-hero-image{
+	margin-top: -30px;
+}
+
+#pdp-content{
+	margin-top: 280px;
+}
+
+#facts-container{
+	width: 288px;
+	margin-top: 30px;
 }
 
 
