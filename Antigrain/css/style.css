@@ -1847,11 +1847,12 @@ label{
 
 
 .product-hero-image{
-	margin-top: -30px;
+	margin: -35px auto 0px auto;
+	width: 85%;
 }
 
 #pdp-content{
-	margin-top: 280px;
+	margin-top: 240px;
 }
 
 #facts-container{
