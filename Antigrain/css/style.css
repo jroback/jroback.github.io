@@ -1307,12 +1307,14 @@ td strong{
 .elements2{
 	float: left;
 	width: 100%;
+	margin: none;
 }
 
 .vitamins{
 	float: left;
 	width: 100%;
 	font-size: 9px;
+	margin: none;
 }
 
 #label-hide-mobile{
