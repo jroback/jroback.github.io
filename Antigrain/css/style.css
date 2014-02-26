@@ -1840,7 +1840,6 @@ label{
 	display: block;
 	position: absolute;
 	top: center no-repeat;
-	overflow: hidden;
 	max-height: 330px;
 }
 
