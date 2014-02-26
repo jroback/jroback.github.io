@@ -591,6 +591,9 @@ nav a:hover{
 			/* width: 100%; /* from 890px*/
 		}
 
+		#mobile-hero{
+			display: none;
+		}
 
 .product-wrapper{
 	position: relative;
@@ -728,6 +731,7 @@ nav a:hover{
 	margin-right: 5%;
 	float: left;
 	text-transform: uppercase;
+	font-size: 14px;
 	position: relative;
 	text-align: center;
 }
@@ -736,6 +740,7 @@ nav a:hover{
 	background-color: #73c1af;
 	width: 60%;
 	float: left;
+	font-size: 14px;
 	text-transform: uppercase;
 	border: 1px solid #73c1af;
 	color: #fff;
@@ -1310,6 +1315,14 @@ footer nav.social-links-foot{
 			/* width: 100%; /* from 890px*/
 		}
 
+
+		#mobile-hero{
+			display: none;
+		}
+
+
+
+
 .body-image{
 	height: 0px;
 	width: 100%;
@@ -1381,6 +1394,14 @@ footer nav.social-links-foot{
 	line-height: 1.25em;
 	letter-spacing: -1px;
 	margin: 0px 0px 20px 0px;
+}
+
+#contact form #pdp-qty{
+	font-size: 12px;
+}
+
+#contact form #pdp-buy{
+	font-size: 12px;
 }
 
 
@@ -1805,14 +1826,29 @@ label{
 	background-color: none;
 
 }
-		.page-hero img{
-			position: absolute;
+	.page-hero img{
+			display: none;
+		/*	position: absolute;
 			top: center no-repeat;
-			max-height: 500px; /* from 285px */
+			max-height: 500px; 
 			margin-right: 0px;
 			padding-right: 0px;
-			width: 100%; /* from 100% */
+			width: 100%;  from 100% */ 
 		}
+
+#mobile-hero{
+	display: block;
+	position: absolute;
+	top: center no-repeat;
+	overflow: hidden;
+	max-height: 330px;
+}
+
+
+#desk-hero{
+	display: none;
+}
+
 
 .post-cover-feat{
 	display: none;
