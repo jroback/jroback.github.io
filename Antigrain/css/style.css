@@ -1840,7 +1840,8 @@ label{
 	display: block;
 	position: absolute;
 	top: center no-repeat;
-	max-height: 330px;
+	width: 100%;
+	max-height: none;
 }
 
 
