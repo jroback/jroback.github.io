@@ -1593,9 +1593,20 @@ ul{
 	font-size: 24px;
 }
 
-.post-wrapper, .product-wrapper{
+.post-wrapper{
 	float: both;
 	width: 288px;
+	margin-bottom: 44px;
+	padding-top: 10px;
+	padding-left: 10px; 
+	padding-right: 10px;
+	margin-right: auto;
+	margin-left: auto; 
+}
+
+.product-wrapper{
+	float: both;
+	width: 190px;
 	margin-bottom: 44px;
 	padding-top: 10px;
 	padding-left: 10px; 
