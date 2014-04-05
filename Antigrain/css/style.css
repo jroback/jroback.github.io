@@ -585,7 +585,7 @@ nav a:hover{
 	height: 0px;
 	display: block;
 	position: relative;
-	padding-bottom: 420px; /* from 22% */
+	padding-bottom: 470px; /* from 470px */
 	background-color: none;
 
 }
@@ -594,6 +594,35 @@ nav a:hover{
 			top: center no-repeat;
 			max-height: 500px;
 			/* width: 100%; /* from 890px*/
+		}
+
+
+		.hero-caption{
+			position: relative;
+			text-align: center;
+			width: 930px;
+			padding-top: 200px;
+			margin: 0px auto;
+			/*background-color: red;*/
+		}
+
+		.hero-heading{
+			font-size: 44px;
+			color: #fff;
+			font-family: "HN-Med", sans-serif;
+			text-align: left;
+		}
+
+		.hero-button{
+		float: left;
+		margin-top: 15px;
+		padding: 15px 15px 10px 15px;
+		font-size: 22px;
+		/*background-color: #73c1af;*/
+		color: white;
+		text-transform: uppercase;
+		font-family: "HN-Med";
+		border: 3px solid #fff;
 		}
 
 		#mobile-hero{
@@ -607,9 +636,9 @@ nav a:hover{
 .product-wrapper{
 	position: relative;
 	width: 288px;
-	height: 484px;
+	/*height: 484px;*/
 	float: left;
-	margin: 16px 16px 44px 16px;
+	margin: 16px 16px 16px 16px;
 }
 
 	.product-wrapper a{
@@ -627,13 +656,13 @@ nav a:hover{
 }
 	.product-cover img{
 		width: 288px;
-		height: 424px;
+		/*height: 424px;*/
 	}
 
 
 .product-label{
 	padding: 15px;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 	background-color: #fff;
 	color: #73c1af;
 	font-size: 14px;
@@ -641,8 +670,9 @@ nav a:hover{
 	text-align: center;
 	font-family: "HN-Bold", sans-serif;
 	width: 256px;
-	position: absolute;
-	top: 424px;
+	float: left;
+	/*position: absolute;
+	top: 424px;*/
 	left: 1px;
 	/*box-shadow: 0px 0px 2px #aaa; */
 }
@@ -1245,6 +1275,14 @@ form label{
 		line-height: 1.25em;
 	}
 
+		.hero-caption{
+			width: 630px;
+		}
+
+		.hero-heading{
+			font-size: 36px;
+		}
+
 .footer{
 	width: 660px;
 	padding-right: 20px;
@@ -1317,6 +1355,7 @@ footer nav.social-links-foot{
 	position: relative;
 	padding-bottom: 420px; /* from 25%*/
 	background-color: none;
+
 
 }
 		.page-hero img{
@@ -1558,7 +1597,6 @@ h3 .suggested{
 
 #desk-hero{
 	display: none;
-	width: 0px;
 }
 
 
@@ -1572,6 +1610,27 @@ h3 .suggested{
     margin: 0px auto 0px auto;
 }
 
+		.hero-caption{
+			width: 288px;
+			padding-top: 75px;
+		}
+
+		.hero-heading{
+			font-size: 28px;
+			text-align: center;
+
+		}
+
+		.hero-button{
+		float: none;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		width: 125px;
+		font-size: 14px;
+		margin-top: 0px;
+		padding: 8px 8px 6px 8px;
+		}
 
 ul{
 	font-size: 12px;
@@ -1593,7 +1652,7 @@ ul{
 	font-size: 24px;
 }
 
-.post-wrapper{
+.post-wrapper, .product-wrapper{
 	float: both;
 	width: 288px;
 	margin-bottom: 44px;
@@ -1604,16 +1663,6 @@ ul{
 	margin-left: auto; 
 }
 
-.product-wrapper{
-	float: both;
-	width: 190px;
-	margin-bottom: 44px;
-	padding-top: 10px;
-	padding-left: 10px; 
-	padding-right: 10px;
-	margin-right: auto;
-	margin-left: auto; 
-}
 
 .footer{
 	width: 288px;
