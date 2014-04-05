@@ -44,6 +44,11 @@
   src: url("../HelveticaNeueLTStd-Md.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Altus";
+  src: url("../Altus.otf") format("opentype");
+}
+
 .clear{
 	clear: both;
 }
@@ -120,8 +125,9 @@ nav a:hover{
 	float: left;
 	width: 123px;
 	height: 75px;
-	margin-top: -18px;
+	margin-top: -9px;
 	margin-left: 4px;
+	margin-right: 10px;
 }
 
 .logo-mobile{
@@ -322,18 +328,19 @@ nav a:hover{
 }
 
 .heading{
-	font-size: 30px;
-	font-weight: 300;
+	font-size: 45px;
+	/*font-weight: 300;*/
 	text-align: center;
 	margin-top: 140px;
 	margin-bottom: 15px;
-	font-family: "HN-Light", sans-serif;
+	text-transform: uppercase;
+	font-family: "Altus", "HN-Light", sans-serif;
 	color: #666;
 }
 
 .blog-container h3{
-	font-size: 16px;
-	font-weight: 300;
+	font-size: 14px;
+	/*font-weight: 300;*/
 	text-align: center;
 	margin-bottom: 60px;
 	font-family: "HN-Light", sans-serif;
@@ -391,9 +398,9 @@ nav a:hover{
 		color: #666;
 		border: 1px solid rgba(111,111,111,.45);
 		border-radius: 1px;
-		font-family: "HN-Light", sans-serif;
-		padding: 5px 6px 3px 6px;
-		font-size: 12px;
+		font-family: "Altus", "HN-Light", sans-serif;
+		padding: 5px 8px 3px 8px;
+		font-size: 14px;
 	}
 
 	li.active{
@@ -601,28 +608,31 @@ nav a:hover{
 			position: relative;
 			text-align: center;
 			width: 930px;
-			padding-top: 200px;
+			padding-top: 150px;
 			margin: 0px auto;
 			/*background-color: red;*/
 		}
 
 		.hero-heading{
-			font-size: 44px;
+			font-size: 66px;
 			color: #fff;
-			font-family: "HN-Med", sans-serif;
+			text-transform: uppercase;
+			font-family: "Altus", "HN-Med", sans-serif;
 			text-align: left;
 		}
 
 		.hero-button{
 		float: left;
-		margin-top: 15px;
+		margin-top: 5px;
 		padding: 15px 15px 10px 15px;
 		font-size: 22px;
 		/*background-color: #73c1af;*/
 		color: white;
 		text-transform: uppercase;
-		font-family: "HN-Med";
-		border: 3px solid #fff;
+		font-family: "HN-Light";
+		letter-spacing: 2px;
+		background-color: rgba(0, 0, 0, 0.5);
+		border: 2px solid #fff;
 		}
 
 		#mobile-hero{
@@ -1280,7 +1290,7 @@ form label{
 		}
 
 		.hero-heading{
-			font-size: 36px;
+			font-size: 66px;
 		}
 
 .footer{
@@ -1616,7 +1626,7 @@ h3 .suggested{
 		}
 
 		.hero-heading{
-			font-size: 28px;
+			font-size: 36px;
 			text-align: center;
 
 		}
