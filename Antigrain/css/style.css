@@ -1688,15 +1688,8 @@ ul{
 
 		.product-label{
 		padding: 15px;
-		margin-bottom: 20px;
-		background-color: #fff;
-		color: #73c1af;
-		font-size: 14px;
-		line-height: 1.25em;
-		text-align: center;
-		font-family: "HN-Bold", sans-serif;
-		width: 256px;
-		float: left;
+		margin: 0px auto 30px auto;
+		width: 160px;
 		/*position: absolute;
 		top: 424px;*/
 		left: 1px;
