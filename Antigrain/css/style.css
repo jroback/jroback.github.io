@@ -634,6 +634,7 @@ nav a:hover{
 		border: 2px solid #fff;
 		}
 
+
 		#mobile-hero{
 			display: none;
 		}
@@ -1962,6 +1963,11 @@ label{
 			margin-right: 0px;
 			padding-right: 0px;
 			width: 100%;  from 100% */ 
+		}
+
+
+	.hero-caption a{
+			text-decoration: none;
 		}
 
 #mobile-hero{
