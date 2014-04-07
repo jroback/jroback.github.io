@@ -1660,7 +1660,7 @@ ul{
 
 .heading{
 	margin-top: 80px;
-	font-size: 24px;
+	font-size: 32px;
 }
 
 .post-wrapper{
@@ -1761,7 +1761,7 @@ footer nav a.left{
 }
 
 header nav a{
-	padding: 0 4px;
+	padding: 0 3px;
 	font-size: 12px;
 	color: #fff;
 }
@@ -1820,7 +1820,7 @@ footer nav.social-links-foot{
 	visibility: visible;
 	display: block;
 	margin-right: 0px;
-	padding: 10px 10px;
+	padding: 10px 9px;
 	float: left;
 }
 
@@ -1900,7 +1900,7 @@ label{
 #contact-margin{
 	margin-top: 80px;
 	margin-bottom: 20px;
-	font-size: 22px;
+	font-size: 32px;
 }
 
 #contact p{
