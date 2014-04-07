@@ -1316,7 +1316,7 @@ footer nav a.left{
 }
 
 footer nav.social-links-foot{
-	padding-right: 32px;
+	padding-right: 0px;
 }
 
 .social-links-foot a{
@@ -1812,7 +1812,7 @@ footer nav.social-links-foot{
 
 footer nav.social-links-foot{
 	padding-right: none;
-	padding-left: 32px;
+	padding-left: 0px;
 	padding-bottom: 15px;
 }
 
