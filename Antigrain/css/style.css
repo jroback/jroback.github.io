@@ -180,7 +180,7 @@ nav a:hover{
 .subscibe-container{
 	background-color: #20995f;
 	border-top: 1px solid rgba(198,198,198,.6);
-	height: 134px;
+	height: 100px;
 	text-align: center;
 	display: block;
 	margin-bottom: -80px;
@@ -190,10 +190,10 @@ nav a:hover{
 
 
 .press-color-blade{
-	background-color: #ecf1f1;
+	background-color: #f7f7f7;
 	border-top: 1px solid rgba(198,198,198,.6);
 	border-bottom: 1px solid rgba(198,198,198,.6);
-	height: 134px;
+	height: 100px;
 	text-align: center;
 	display: block;
 	margin-bottom: 80px;
@@ -211,7 +211,7 @@ nav a:hover{
 
 .press-logo{
 	float: left;
-	margin-top: 30px;
+	margin-top: 15px;
 	margin-left: 30px;
 	margin-right: 30px;
 }
@@ -239,7 +239,7 @@ nav a:hover{
 }
 
 	.kick-container iframe{
-		margin-top: 48px;
+		margin-top: 55px;
 	}
 
 
@@ -330,7 +330,7 @@ nav a:hover{
 
 
 #mce-EMAIL{ /*email*/
-	margin: 44px auto 0px auto;
+	margin: 22px auto 0px auto;
 	text-align: left;
 	padding: 11px 10px 8px 15px;
 	display: inline-block;
@@ -344,14 +344,11 @@ nav a:hover{
 	border-radius: 2px 0px 0px 2px;
 }
 
-		#mce-EMAIL:focus{
-			padding: 9px 10px;
-		
-}
+
 
 .button{
 	margin-left: -0px;
-	margin-top: 44px;
+	margin-top: 15px;
 	padding: 9px 10px 10px 14px;
 	font-size: 13px;
 	display: inline-block;
@@ -362,9 +359,9 @@ nav a:hover{
 	text-transform: uppercase;
 	font-family: "Brandon", "HN-Bold";
 	border: 1px solid #fff;
-	-webkit-border-radius: 0px 2px 2px 0px;
-	-moz-border-radius: 0px 2px 2px 0px;
-	border-radius: 0px 2px 2px 0px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
 }
 
 
@@ -722,16 +719,16 @@ nav a:hover{
 		.hero-button{
 		float: left;
 		margin-top: 5px;
-		padding: 15px 15px 10px 15px;
-		font-size: 22px;
+		padding: 12px 18px 12px 18px;
+		font-size: 14px;
 		/*background-color: #73c1af;*/
 		color: white;
 		text-transform: uppercase;
 		font-family: "Brandon", "HN-Light";
 		letter-spacing: 2px;
 		background-color: #20995f; 
+		border-radius: 3px;
 		/* background-color: rgba(0, 0, 0, 0.5);*/
-		border: 2px solid #fff;
 		}
 
 
