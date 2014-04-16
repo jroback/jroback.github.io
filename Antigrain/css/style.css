@@ -208,6 +208,32 @@ nav a:hover{
 	margin: auto;
 }
 
+.heading-container{
+	width: 930px;
+	text-align: left;
+	display: block;
+	margin: auto;
+}
+
+	.blade-heading{
+		margin-top: 80px;
+		font-size: 48px;
+		font-family: "Altus", "HN-Light", sans-serif;
+		color: #666;
+	}
+
+	.blade-subhead{
+		margin-top: 8px;
+		margin-bottom: 5px;
+		color: #666;
+		font-size: 16px;
+		font-family: "HN-Light"
+	}
+
+	.heading-container .buy-stamp{
+		
+	}
+
 
 .press-logo{
 	float: left;
@@ -237,6 +263,14 @@ nav a:hover{
 	position: relative;
 	margin: auto;
 }
+
+		.kick-container #kickstarter-badge{
+			position: absolute;
+			top: -20px;
+			right: 80px;
+			height: 110px;
+			width: 110px;
+		}
 
 	.kick-container iframe{
 		margin-top: 55px;
