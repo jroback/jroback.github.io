@@ -2333,12 +2333,14 @@ label{
 
 .kick-container{
 	width: 288px;
+	padding: none;
 }
 
 		.kick-container iframe{
 			width: 260px;
 			height: 146px;
-			margin-top: 21px;
+			margin-top: 30px;
+			padding: none;
 		}
 
 		.kick-container #kickstarter-badge{
@@ -2352,6 +2354,7 @@ label{
 	height: 204px;
 	margin-bottom: 80px;
 	margin-top: 30px;
+	padding: none;
 }
 
 
@@ -2372,6 +2375,7 @@ label{
 .recipes-home-container{
 	width: 308px;
 	padding-left: 0px;
+	padding-right: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -2394,10 +2398,12 @@ label{
 	height: 112px;
 	margin-bottom: -30px;
 	margin-top: -100px;
+	padding: none;
 }
 
 		#mc_embed_signup, #mc-embedded-subscribe-form{
 			width: 288px;
+			padding: none;
 		}
 
 			.subscribe-label{
