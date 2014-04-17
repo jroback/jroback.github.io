@@ -2373,7 +2373,7 @@ label{
 
 
 .recipes-home-container{
-	width: 308px;
+	width: 300px;
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-left: auto;
@@ -2457,6 +2457,7 @@ label{
 
 #top-tile-2{
 	margin-top: -30px;
+	float: none;
 }
 
 
