@@ -2358,6 +2358,9 @@ label{
 .heading-container{
 	width: 288px;
 	text-align: center;
+	padding: none;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 	.blade-heading{
