@@ -2373,9 +2373,9 @@ label{
 
 
 .recipes-home-container{
-	width: 308px;
-	padding-left: 15px;
-	padding-right: none;
+	width: 288px;
+	padding-left: 0px;
+	padding-right: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
