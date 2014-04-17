@@ -2332,31 +2332,31 @@ label{
 /* =================== Homepage Blades ======================== */
 
 .kick-container{
-	width: 308px;
+	width: 288px;
 }
 
 		.kick-container iframe{
-			width: 288px;
-			height: 162px;
-			margin-top: 35px;
+			width: 260px;
+			height: 146px;
+			margin-top: 21px;
 		}
 
 		.kick-container #kickstarter-badge{
-			height: 55px;
-			width: 55px;
-			top: -10px;
+			height: 70px;
+			width: 70px;
+			top: -15px;
 		}
 
 .kickstarter-blade{
 	background-image: url("../images/claim-pattern-02.png");
-	height: 232px;
+	height: 204px;
 	margin-bottom: 80px;
 	margin-top: 30px;
 }
 
 
 .heading-container{
-	width: 308px;
+	width: 288px;
 	text-align: center;
 }
 
@@ -2368,7 +2368,19 @@ label{
 
 .recipes-home-container{
 	width: 308px;
+	padding-left: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+.recipes-color-blade{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+}
+
+
 
 		#tile-mobile-hide{
 			display: none;
