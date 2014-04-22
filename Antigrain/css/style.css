@@ -515,7 +515,7 @@ nav a:hover{
 
 .pagination{
 	text-align: center;
-	margin: 30px auto 0px auto;
+	margin: 30px auto 60px auto;
 }
 
 	.pagination li{
@@ -2467,6 +2467,10 @@ label{
 	padding: 0px;
 }
 
+
+.pagination{
+	margin-bottom: 160px;
+}
 
 @viewport {
   width: device-width;
