@@ -458,7 +458,7 @@ nav a:hover{
 	text-align: center;
 	margin-top: 140px;
 	margin-bottom: 15px;
-	text-transform: uppercase;
+	text-transform: none;
 	font-family: "Altus", "HN-Light", sans-serif;
 	color: #666;
 }
@@ -1090,6 +1090,7 @@ td strong{
 	color: #fff;
 	background-color: #bbb;
 }
+
 
 #serving-size{
 	font-family: "HN-Bold", sans-serif;
