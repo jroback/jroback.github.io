@@ -1,27 +1,113 @@
-@font-face {
-  font-family: "Brandon";
-  src: url("../Brandon_reg.otf") format("opentype");
-}
 
 @font-face {
-  font-family: "Marker";
-  src: url("../cedric-marker.ttf") format("truetype");
+    font-family: 'Altus-extras';
+    src: url('altus-extras-webfont.eot');
+    src: url('altus-extras-webfont.eot?#iefix') format('embedded-opentype'),
+         url('altus-extras-webfont.woff') format('woff'),
+         url('altus-extras-webfont.ttf') format('truetype'),
+         url('altus-extras-webfont.svg#altus_extrasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-@font-face {
-  font-family: "Cubano";
-  src: url("../cubano-regular.ttf") format("truetype");
-}
 
 @font-face {
-  font-family: "Governor";
-  src: url("../governor.ttf") format("truetype");
+    font-family: 'Altus-serif';
+    src: url('altus-serif-webfont.eot');
+    src: url('altus-serif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('altus-serif-webfont.woff') format('woff'),
+         url('altus-serif-webfont.ttf') format('truetype'),
+         url('altus-serif-webfont.svg#altus_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+
 @font-face {
-  font-family: "Symbols";
-  src: url("../WebSymbolsLiga-Regular.otf") format("opentype");
+    font-family: 'Altus';
+    src: url('altus-webfont.eot');
+    src: url('altus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('altus-webfont.woff') format('woff'),
+         url('altus-webfont.ttf') format('truetype'),
+         url('altus-webfont.svg#altusregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
+@font-face {
+    font-family: 'Brandon';
+    src: url('brandon_reg-webfont.eot');
+    src: url('brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_reg-webfont.woff') format('woff'),
+         url('brandon_reg-webfont.ttf') format('truetype'),
+         url('brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Marker';
+    src: url('cedric-marker-webfont.eot');
+    src: url('cedric-marker-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cedric-marker-webfont.woff') format('woff'),
+         url('cedric-marker-webfont.ttf') format('truetype'),
+         url('cedric-marker-webfont.svg#cedricmarkermedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Cubano';
+    src: url('cubano-regular-webfont.eot');
+    src: url('cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cubano-regular-webfont.woff') format('woff'),
+         url('cubano-regular-webfont.ttf') format('truetype'),
+         url('cubano-regular-webfont.svg#cubanoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Governor';
+    src: url('governor-webfont.eot');
+    src: url('governor-webfont.eot?#iefix') format('embedded-opentype'),
+         url('governor-webfont.woff') format('woff'),
+         url('governor-webfont.ttf') format('truetype'),
+         url('governor-webfont.svg#governorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Symbols';
+    src: url('websymbolsliga-regular-webfont.eot');
+    src: url('websymbolsliga-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('websymbolsliga-regular-webfont.woff') format('woff'),
+         url('websymbolsliga-regular-webfont.ttf') format('truetype'),
+         url('websymbolsliga-regular-webfont.svg#web_symbols_ligaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 }
 @font-face {
@@ -44,20 +130,6 @@
   src: url("../HelveticaNeueLTStd-Md.otf") format("opentype");
 }
 
-@font-face {
-  font-family: "Altus";
-  src: url("../Altus.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Altus-extras";
-  src: url("../Altus-Extras.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Altus-serif";
-  src: url("../Altus-Serif.otf") format("opentype");
-}
 
 .clear{
 	clear: both;
