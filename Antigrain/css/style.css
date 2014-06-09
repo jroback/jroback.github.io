@@ -777,7 +777,7 @@ nav a:hover{
 		float: left;
 		margin-top: 5px;
 		padding: 12px 18px 12px 18px;
-		font-size: 14px;
+		font-size: 12px;
 		/*background-color: #73c1af;*/
 		color: white;
 		text-transform: uppercase;
@@ -1759,6 +1759,17 @@ h3 .suggested{
 	max-height: none;
 }
 
+.page-hero{
+	margin-top: 65px; /* from 110px */
+	background: url("../images/hero-test-tablet.jpg") top center no-repeat;
+	width: 100%; /* from 930px */
+	height: 0px;
+	display: block;
+	position: relative;
+	padding-bottom: 500px; /* from 470px */
+	background-color: none;
+}
+
 
 #desk-hero{
 	display: none;
@@ -1826,8 +1837,9 @@ h3 .suggested{
 		}
 
 		.hero-heading{
-			font-size: 36px;
+			font-size: 28px; /* ==== from 36pt ==== */
 			text-align: center;
+			margin-top: -45px; /* ==== from 0 ==== */
 
 		}
 
@@ -1837,9 +1849,9 @@ h3 .suggested{
 		margin-right: auto;
 		margin-left: auto;
 		width: 125px;
-		font-size: 14px;
-		margin-top: 0px;
-		padding: 8px 8px 6px 8px;
+		font-size: 12px;
+		margin-top: -10px;
+		padding: 5px 10px 5px 10px;
 		}
 
 ul{
@@ -2178,6 +2190,17 @@ label{
 	top: center no-repeat;
 	width: 100%;
 	max-height: none;
+}
+
+.page-hero{
+	margin-top: 42px; /* from 110px */
+	background: url("../images/hero-test-mobile.jpg") top center no-repeat;
+	width: 100%; /* from 930px */
+	height: 0px;
+	display: block;
+	position: relative;
+	padding-bottom: 275px; /* from 470px */
+	background-color: none;
 }
 
 
