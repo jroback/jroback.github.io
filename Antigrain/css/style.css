@@ -761,18 +761,30 @@ nav a:hover{
 		}
 
 
-			#flourish{
+			#flourish1{
 				font-family: "Altus-extras", "Altus", "HN-Med";
+				font-size: 50%;
+				margin-left: 80px;
+			}
+
+				#flourish{
+				font-family: "Altus-extras", "Altus", "HN-Med";
+				font-size: 50%;
+				line-height: .4em;
 			}
 
 			#for{
-				font-family: "Altus-serif", "Altus", "HN-Med";
+				font-family: "Georgia", "Altus-serif", "Altus", "HN-Med";
 				text-transform: lowercase;
+				font-style: italic;
+				font-weight: 300;
+				font-size: 40%;
 			}
 
 		.hero-heading{
 			font-size: 66px;
 			color: #fff;
+			line-height: .9em;
 			text-transform: uppercase;
 			font-family: "Altus", "HN-Med", sans-serif;
 			text-align: left;
@@ -2504,6 +2516,10 @@ label{
 			}
 
 
+
+#flourish1{
+	margin-left: 0px;
+			}
 
 
 #top-tile{
