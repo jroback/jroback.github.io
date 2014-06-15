@@ -764,7 +764,7 @@ nav a:hover{
 			#flourish1{
 				font-family: "Altus-extras", "Altus", "HN-Med";
 				font-size: 50%;
-				margin-left: 70px;
+				margin-left: 75px;
 			}
 
 				#flourish{
@@ -893,7 +893,7 @@ nav a:hover{
 .product-name{
 	color: #20995f;
 	display: block;
-	font-family: "Altus", "HN-Med", sans-serif;
+	font-family: "Altus", "Amatic SC", "HN-Med", sans-serif;
 	text-transform: uppercase;
 	font-size: 54px;
 	font-weight: 600;
