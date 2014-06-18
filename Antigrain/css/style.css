@@ -1,8 +1,14 @@
 
 
 @font-face {
-  font-family: "Brandon";
-  src: url("../Brandon_reg.otf") format("opentype");
+    font-family: 'Brandon';
+    src: url('../brandon_reg-webfont.eot');
+    src: url('../brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../brandon_reg-webfont.woff') format('woff'),
+         url('../brandon_reg-webfont.ttf') format('truetype'),
+         url('../brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -17,8 +23,14 @@
 }
 
 @font-face {
-  font-family: "Symbols";
-  src: url("../WebSymbolsLiga-Regular.otf") format("opentype");
+    font-family: 'Symbols';
+    src: url('../websymbolsligaregular-webfont.eot');
+    src: url('../websymbolsligaregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../websymbolsligaregular-webfont.woff') format('woff'),
+         url('../websymbolsligaregular-webfont.ttf') format('truetype'),
+         url('../websymbolsligaregular-webfont.svg#web_symbols_ligaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -27,22 +39,41 @@
 }
 
 @font-face {
-  font-family: "Altus";
-  src: url("../Altus.otf") format("opentype");
+    font-family: 'Altus-extras';
+    src: url('../altus-extras-webfont.eot');
+    src: url('../altus-extras-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../altus-extras-webfont.woff') format('woff'),
+         url('../altus-extras-webfont.ttf') format('truetype'),
+         url('../altus-extras-webfont.svg#altus_extrasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 @font-face {
-  font-family: "Altus-extras";
-  src: url("../Altus-Extras.otf") format("opentype");
+    font-family: 'Altus';
+    src: url('../altus-webfont.eot');
+    src: url('../altus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../altus-webfont.woff') format('woff'),
+         url('../altus-webfont.ttf') format('truetype'),
+         url('../altus-webfont.svg#altusregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 @font-face {
-  font-family: "Altus-serif";
-  src: url("../Altus-Serif.otf") format("opentype");
+    font-family: 'Altus-serif';
+    src: url('../altus-serif-webfont.eot');
+    src: url('../altus-serif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../altus-serif-webfont.woff') format('woff'),
+         url('../altus-serif-webfont.ttf') format('truetype'),
+         url('../altus-serif-webfont.svg#altus_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
-}
 @font-face {
   font-family: "HN-Roman";
   src: url("../HelveticaNeueLTStd-Roman.otf") format("opentype");
@@ -69,7 +100,8 @@
 }
 
 #strong{
-	font-family: "HN-Bold";
+	font-family: "Roboto", "HN-Bold";
+	font-weight: 500;
 }
 
 input{
@@ -126,7 +158,7 @@ header nav a{
 	font-size: 13px;
 	color: #666;
 	text-transform: uppercase;
-	font-family: "Brandon", "HN-Light", helvetica, sans-serif;
+	font-family: "Brandon", "Roboto", "HN-Light", "Helvetica", sans-serif;
 	text-decoration: none;
 	/*text-transform: uppercase;*/
 }
@@ -233,7 +265,7 @@ nav a:hover{
 	.blade-heading{
 		margin-top: 80px;
 		font-size: 48px;
-		font-family: "Altus", "HN-Light", sans-serif;
+		font-family: "Altus", "Roboto Slab", "HN-Light", sans-serif;
 		color: #666;
 	}
 
@@ -242,7 +274,8 @@ nav a:hover{
 		margin-bottom: 5px;
 		color: #666;
 		font-size: 16px;
-		font-family: "HN-Light"
+		font-family: "Roboto Slab", "HN-Light";
+		font-weight: 300;
 	}
 
 	.heading-container .buy-stamp{
@@ -330,6 +363,7 @@ nav a:hover{
 .subscribe-label{
 	font-size: 18px;
 	color: #fff;
+	font-family: "Roboto Slab", "HN-Bold", sans-serif;
 	margin-right: 30px;
 }
 
@@ -380,27 +414,28 @@ nav a:hover{
 }
 
 
-#mce-EMAIL{ /*email*/
-	margin: 22px auto 0px auto;
-	text-align: left;
-	padding: 11px 10px 8px 15px;
-	display: inline-block;
-	width: 185px;
-	border: 1px solid #fff;
-	font-family: "HN-Light", sans-serif;
-	font-size: 16px;
-	line-height: 18px;
-	-webkit-border-radius: 2px 0px 0px 2px;
-	-moz-border-radius: 2px 0px 0px 2px;
-	border-radius: 2px 0px 0px 2px;
-}
+
+	#mce-EMAIL{ /*email*/
+		text-align: left;
+		margin: 22px auto 0px auto;
+		padding: 10px 10px 8px 15px;
+		width: 170px;
+		border: 1px solid #fff;
+		font-family: "Roboto", "HN-Light", sans-serif;
+		font-size: 13px;
+		font-weight: 300;
+		color: #999;
+		line-height: 14px;
+		-webkit-border-radius: 2px 0px 0px 2px;
+		-moz-border-radius: 2px 0px 0px 2px;
+		border-radius: 2px 0px 0px 2px;
+		}
 
 
-
-.button{
-	margin-left: -0px;
-	margin-top: 15px;
-	padding: 9px 10px 10px 14px;
+#mc-embedded-subscribe.button{
+	margin-left: 0px;
+	margin-top: 7px;
+	padding: 11px 10px 8px 14px;
 	font-size: 13px;
 	display: inline-block;
 	color: white;
@@ -408,7 +443,7 @@ nav a:hover{
 	background-color: #20995f; 
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: "Brandon", "HN-Bold";
+	font-family: "Brandon", "Roboto", "HN-Bold";
 	border: 1px solid #fff;
 	-webkit-border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
@@ -444,21 +479,23 @@ nav a:hover{
 }
 
 .date-stamp{
-	font-family: "HN-Med", sans-serif;
+	font-family: "Roboto", "HN-Med", sans-serif;
 	font-size: 12px;
 	display: inline-block;
 	float: right;
 	padding-top: 15px;
 	color: #999;
+	font-weight: 500;
 }
 
 .tag-stamp{
-	font-family: "HN-Med", sans-serif;
+	font-family: "Roboto", "HN-Med", sans-serif;
 	font-size: 12px;
 	display: inline-block;
 	float: left;
 	padding-top: 15px;
 	color: #999;
+	font-weight: 500;
 }
 
 .blog-container{
@@ -483,8 +520,9 @@ nav a:hover{
 	/*font-weight: 300;*/
 	text-align: center;
 	margin-bottom: 60px;
-	font-family: "HN-Light", sans-serif;
-	color: #999;	
+	font-family: "Roboto Slab", "Roboto" "HN-Light", sans-serif;
+	color: #999;
+	font-weight: 300;	
 }
 
 .post-wrapper{
@@ -520,7 +558,7 @@ nav a:hover{
 	text-align: left;
 	font-size: 14px;
 	line-height: 1.25em;
-	font-family: "HN-Bold", sans-serif;
+	font-family: "Roboto Slab", "HN-Bold", sans-serif;
 	width: 256px;
 	position: absolute;
 	top: 160px;
@@ -539,9 +577,9 @@ nav a:hover{
 		color: #666;
 		border: 1px solid rgba(111,111,111,.45);
 		border-radius: 1px;
-		font-family: "Altus", "HN-Light", sans-serif;
-		padding: 5px 8px 3px 8px;
-		font-size: 14px;
+		font-family: "Roboto Slab", "Altus", "HN-Light", sans-serif;
+		padding: 5px 8px 5px 8px;
+		font-size: 12px;
 	}
 
 	li.active{
@@ -609,8 +647,9 @@ nav a:hover{
 
 .post-label-big p{
 	margin: 15px 0px 15px 0px;
-	font-family: "HN-Light", sans-serif;
+	font-family: "Roboto", "HN-Light", sans-serif;
 	color: #666;
+	font-weight: 300;
 	line-height: 1.5em;
 }
 
@@ -620,7 +659,8 @@ nav a:hover{
 	width: 700px;
 	float: left;
 	font-size: 36px;
-	font-weight: 600;
+	font-family: "Roboto Slab", "HN-Light", sans-serif;
+	font-weight: 700;
 	line-height: 1.25em;
 	letter-spacing: -1px;
 	margin: 0px 100px 20px 0px;
@@ -637,7 +677,7 @@ nav a:hover{
 }
 
 .date-stamp-big{
-	font-family: "HN-Light", sans-serif;
+	font-family: "Roboto", "HN-Light", sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	display: inline-block;
@@ -679,7 +719,8 @@ nav a:hover{
 	color: #666;
 	font-size: 18px;
 	margin-bottom: 20px;
-	font-family: "HN-Bold", sans-serif;
+	font-family: "Roboto Slab", "HN-Bold", sans-serif;
+	font-weight: 700;
 }
 
 .cook-heading{
@@ -692,7 +733,8 @@ nav a:hover{
 	}
 
 	.cook-info li{
-		font-family: "HN-Bold";
+		font-family: "Roboto", "HN-Bold";
+		font-weight: 300;
 	}
 
 .ingredients{
@@ -704,7 +746,8 @@ nav a:hover{
 	.ingredients li{
 		color: #999;
 		font-size: 14px;
-		font-family: "HN-Light", sans-serif;
+		font-family: "Roboto", "HN-Light", sans-serif;
+		font-weight: 300;
 		padding: 4px 0px;
 		line-height: 1.15em;
 	}
@@ -721,8 +764,10 @@ nav a:hover{
 }
 
 	.directions-cont li{
-		color: #999;
+		color: #666;
 		list-style: decimal;
+		font-family: "Roboto", sans-serif;
+		font-weight: 500;
 	}
 
 /* ========================== Products ========================== */
@@ -770,7 +815,6 @@ nav a:hover{
 				#flourish{
 				font-family: "Altus-extras", "Altus", "HN-Med";
 				font-size: 50%;
-				line-height: .4em;
 			}
 
 			#for{
@@ -779,12 +823,13 @@ nav a:hover{
 				font-style: italic;
 				font-weight: 300;
 				font-size: 50%;
+				line-height: 2.5em;
 			}
 
 		.hero-heading{
 			font-size: 66px;
 			color: #fff;
-			line-height: .9em;
+			line-height: .5em;
 			font-weight: 700;
 			letter-spacing: 1px;
 			text-transform: uppercase;
@@ -794,13 +839,13 @@ nav a:hover{
 
 		.hero-button{
 		float: left;
-		margin-top: 5px;
+		margin-top: 20px;
 		padding: 12px 18px 12px 18px;
 		font-size: 12px;
 		/*background-color: #73c1af;*/
 		color: white;
 		text-transform: uppercase;
-		font-family: "Brandon", "HN-Light";
+		font-family: "Brandon", "Roboto", "HN-Light";
 		letter-spacing: 2px;
 		background-color: #20995f; 
 		border-radius: 3px;
@@ -851,9 +896,10 @@ nav a:hover{
 	font-size: 14px;
 	line-height: 1.25em;
 	text-align: center;
-	font-family: "HN-Bold", sans-serif;
+	font-family: "Roboto", "HN-Bold", sans-serif;
 	width: 256px;
 	float: left;
+	font-weight: 700;
 	/*position: absolute;
 	top: 424px;*/
 	left: 1px;
@@ -862,18 +908,19 @@ nav a:hover{
 
 
 .price-stamp{
-	font-family: "HN-Med", sans-serif;
+	font-family: "Roboto", "HN-Med", sans-serif;
 	font-size: 16px;
 	font-style: italic;
 	display: inline-block;
 	text-align: center;
 	margin-top: 7px;
 	margin-right: 5px;
+	font-weight: 700;
 	color: #999;
 }
 
 .buy-stamp{
-	font-family: "Brandon", "Cubano", "HN-Med", sans-serif;
+	font-family: "Brandon", "Roboto", "Cubano", "HN-Med", sans-serif;
 	font-size: 12px;
 	display: inline-block;
 	text-align: center;
@@ -957,7 +1004,7 @@ nav a:hover{
 	color: #666;
 	text-transform: uppercase;
 	font-size: 16px;
-	font-family: "Brandon", "Cubano", "HN-Light", sans-serif;
+	font-family: "Brandon", "Roboto", "Cubano", "HN-Light", sans-serif;
 	position: relative;
 	text-align: center;
 }
@@ -967,7 +1014,7 @@ nav a:hover{
 	background-color: #20995f;
 	width: 60%;
 	float: left;
-	font-family: "Brandon", "Cubano", "HN-Light", sans-serif;
+	font-family: "Brandon", "Roboto", "Cubano", "HN-Light", sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
 	border: 1px solid #20995f;
@@ -1270,12 +1317,13 @@ td strong{
 
 .copyright{
 	text-decoration: none;
-	font-family: "HN-Light", sans-serif;
+	font-family: "Roboto", "HN-Light", sans-serif;
 	font-size: 12px;
 	color: #999;
 	float: left;
-	line-height: 20px;
+	line-height: 16px;
 	padding: 0px 15px;
+	font-weight: 300;
 }
 
 footer nav.account-links-foot{
@@ -1295,8 +1343,9 @@ footer nav a.left{
 	padding: 0 15px;
 	font-size: 12px;
 	color: #999;
-	font-family: "HN-Med", helvetica, sans-serif;
+	font-family: "Roboto", "HN-Med", helvetica, sans-serif;
 	text-decoration: none;
+	font-weight: 500;
 }
 
 footer nav.social-links-foot{
@@ -1647,7 +1696,7 @@ footer nav.social-links-foot{
 }
 
 		.post-label-big h5{
-			width: 400px;
+			width: 450px;
 			font-size: 24;
 		}	
 
@@ -1914,7 +1963,7 @@ h3 .suggested{
 		margin-left: auto;
 		width: 125px;
 		font-size: 12px;
-		margin-top: -10px;
+		margin-top: 0px;
 		padding: 5px 10px 5px 10px;
 		}
 
@@ -2305,9 +2354,9 @@ label{
 }
 
 		.post-label-big h5{
-			max-width: 179px;
+			max-width: 200px;
 			min-width: 80px;
-			font-size: 13px;
+			font-size: 14px;
 			margin-right: 3px;
 		}	
 
@@ -2532,11 +2581,13 @@ label{
 			#mce-EMAIL{ /*email*/
 		margin: 0px auto 0px auto;
 		text-align: left;
-		padding: 11px 10px 8px 15px;
-		width: 170px;
+		padding: 9px 10px 8px 15px;
+		width: 150px;
 		border: 1px solid #fff;
-		font-family: "HN-Light", sans-serif;
+		font-family: "Roboto", "HN-Light", sans-serif;
 		font-size: 13px;
+		font-weight: 300;
+		color: #666;
 		line-height: 14px;
 		-webkit-border-radius: 2px 0px 0px 2px;
 		-moz-border-radius: 2px 0px 0px 2px;
@@ -2545,17 +2596,17 @@ label{
 
 
 
-			.button{
-			margin-left: -0px;
+			#mc-embedded-subscribe.button{
+			margin-left: 0px;
 			margin-top: 5px;
-			padding: 8px 10px 9px 14px;
+			padding: 10px 10px 8px 14px;
 			font-size: 13px;
 			display: inline-block;
 			color: white;
 			background-color: #20995f; 
 			letter-spacing: 1px;
 			text-transform: uppercase;
-			font-family: "Brandon", "HN-Bold";
+			font-family: "Brandon", "Roboto", "HN-Bold";
 			border: 1px solid #fff;
 			-webkit-border-radius: 2px 2px 2px 2px;
 			-moz-border-radius: 2px 2px 2px 2px;
