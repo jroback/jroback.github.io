@@ -155,10 +155,10 @@ title{
 
 header nav a{
 	padding: 0 20px;
-	font-size: 13px;
-	color: #666;
+	font-size: 12px;
+	color: #999;
 	text-transform: uppercase;
-	font-family: "Brandon", "Roboto Slab", "HN-Light", "Helvetica", sans-serif;
+	font-family: "Brandon", "Montserrat", "Roboto Slab", "HN-Light", "Helvetica", sans-serif;
 	text-decoration: none;
 	/*text-transform: uppercase;*/
 }
@@ -304,6 +304,10 @@ nav a:hover{
 	margin-top: 80px;
 	width: 100%;
 }
+
+	#claim-blade{
+		height: 150px;
+	}
 
 .kick-container{
 	width: 930px;
@@ -1287,8 +1291,8 @@ td strong{
 /* ========================== About ========================== */
 
 #about{
-	border-top: 1px dashed #999;
-	padding-top: 50px;
+	/*border-top: 1px dashed #999;*/
+	padding-top: 0px;
 	padding-bottom: 80px;
 }
 
@@ -1322,13 +1326,45 @@ td strong{
 .usage-copy{
 	margin-top: 5px;
 	width: 100%;
-	color: #666;
+	font-family: "Roboto", "HN-Light", sans-serif;
+	margin-bottom: 10px;
+	font-weight: 300;
+	font-size: 14px;
+	color: #999;
+	letter-spacing: none;
+	word-spacing: none;
+	line-height: 1.5em;
 }
 
 #flour-intro{
 	margin-bottom: 80px;
 	color: #999;
 }
+
+
+.usage-table{
+	float: left;
+	color: #999;
+	margin-top: 5px;
+	width: 670px;
+	font-family: "Roboto", "HN-Light", sans-serif;
+	margin-bottom: 10px;
+	font-weight: 300;
+	font-size: 14px;
+	border: 1px solid #999;
+}
+
+		.usage-table td{
+			border: 1px solid #999;
+			padding: 5px 10px;
+			vertical-align: middle;
+		}
+
+			.usage-table td.first{
+				font-family: "Roboto Slab";
+				font-weight: 500;
+			}
+
 
 /* ========================== Footer ========================== */
 
@@ -1977,6 +2013,13 @@ h3 .suggested{
 		}
 
 
+.usage-table{
+	width: 372px;
+	font-size: 14px;
+	margin-bottom: 75px;
+}
+
+
 /* ===================== @ Media Mobile ====================== */
 
 
@@ -2135,7 +2178,7 @@ footer nav a.left{
 
 header nav a{
 	padding: 0 3px;
-	font-size: 12px;
+	font-size: 11px;
 	color: #fff;
 }
 
@@ -2674,6 +2717,18 @@ label{
 	margin-top: 5px;
 	margin-bottom: 75px;
 }
+
+
+.usage-table{
+	width: 288px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	margin-top: -60px;
+	margin-bottom: 75px;
+}
+
 
 
 @viewport {
