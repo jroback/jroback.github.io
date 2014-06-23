@@ -310,6 +310,15 @@ nav a:hover{
 		margin-top: 65px;
 	}
 
+		#grain-haters{
+			color: #999;
+			font-family: "Roboto", "HN-Light", sans-serif;
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 1.5em;
+		}
+
+
 .kick-container{
 	width: 930px;
 	text-align: center;
