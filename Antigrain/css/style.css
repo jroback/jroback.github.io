@@ -307,6 +307,7 @@ nav a:hover{
 
 	#claim-blade{
 		height: 150px;
+		margin-top: 65px;
 	}
 
 .kick-container{
@@ -1365,6 +1366,13 @@ td strong{
 				font-weight: 500;
 			}
 
+
+					.usage-table .facts{
+						background-color: #666;
+						text-align: center;
+						font-family: "Roboto Slab";
+						color: #fff;
+					}
 
 /* ========================== Footer ========================== */
 
@@ -2724,7 +2732,8 @@ label{
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 14px;
+	font-size: 10px;
+	line-height: 14px;
 	margin-top: -60px;
 	margin-bottom: 75px;
 }
