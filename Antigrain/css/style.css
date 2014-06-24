@@ -305,21 +305,66 @@ nav a:hover{
 	width: 100%;
 }
 
-	#claim-blade{
-		margin-top: 65px;
-		height: 200px;
+	#claim-blade-1{
+		background-color: #20995f;
+		width: 100%;
+		display: block;
+		padding-top: 40px;
+		padding-bottom: 50px;
+		margin-top: 25px;
 	}
 
-		.about-blade{
-			background-color: #20995f;
-		}
+
+#claim-blade-2{
+		background-color: #999;
+		width: 100%;
+		display: block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-top: 25px;
+	}
+
+		#grain-hating-spectrum{
+					color: #fff;
+					margin-top: 
+					font-family: "Roboto", "HN-Light", sans-serif;
+					font-weight: 300;
+					font-size: 14px;
+					width: 960px;
+					margin-left: auto;
+					margin-right: auto;
+					height: 80px;
+					line-height: 1.5em;
+					text-align: center;
+			}
+
+					#grain-hating-spectrum p{
+						text-align: center;
+						margin-top: 15px;
+						font-family: "Roboto", "HN-Light", sans-serif;
+					}
+
+
+	#claim-blade-3{
+		background-color: #20995f;
+		width: 100%;
+		display: block;
+		padding-top: 40px;
+		padding-bottom: 50px;
+		margin-top: 25px;
+	}
 
 
 				#grain-haters{
 					color: #fff;
+					margin-top: 
 					font-family: "Roboto", "HN-Light", sans-serif;
 					font-weight: 300;
 					font-size: 14px;
+					width: 960px;
+					margin-left: auto;
+					margin-right: auto;
+					height: 80px;
 					line-height: 1.5em;
 					text-align: center;
 			}
@@ -335,6 +380,7 @@ nav a:hover{
 						margin-left: 50px;
 						margin-top: 15px;
 						width: 480px;
+						font-family: "Roboto", "HN-Light", sans-serif;
 					}
 
 					#grain-haters h6{
@@ -342,6 +388,7 @@ nav a:hover{
 						margin-left: 30px;
 						line-height: 1.2em;
 						width: 400px;
+						font-weight: 500;
 						font-size: 36px;
 						font-family: "Roboto Slab", "Roboto", sans-serif;
 					}
