@@ -306,17 +306,45 @@ nav a:hover{
 }
 
 	#claim-blade{
-		height: 150px;
 		margin-top: 65px;
+		height: 200px;
 	}
 
-		#grain-haters{
-			color: #999;
-			font-family: "Roboto", "HN-Light", sans-serif;
-			font-weight: 300;
-			font-size: 14px;
-			line-height: 1.5em;
+		.about-blade{
+			background-color: #20995f;
 		}
+
+
+				#grain-haters{
+					color: #fff;
+					font-family: "Roboto", "HN-Light", sans-serif;
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 1.5em;
+					text-align: center;
+			}
+
+					#grain-haters i{
+						font-size: 12px;
+						vertical-align: top;
+					}
+
+					#grain-haters p, #grain-haters li{
+						float: left;
+						text-align: left;
+						margin-left: 50px;
+						margin-top: 15px;
+						width: 480px;
+					}
+
+					#grain-haters h6{
+						float: left;
+						margin-left: 30px;
+						line-height: 1.2em;
+						width: 400px;
+						font-size: 36px;
+						font-family: "Roboto Slab", "Roboto", sans-serif;
+					}
 
 
 .kick-container{
