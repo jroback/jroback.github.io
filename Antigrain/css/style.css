@@ -1467,7 +1467,10 @@ td strong{
 
 		#about-us-last{
 			margin-bottom: 100px;
+			margin-left: auto;
+			margin-right: auto;
 		}
+
 
 #flour-intro{
 	margin-bottom: 80px;
@@ -2840,10 +2843,17 @@ label{
 
 	.about-img{
 		margin-top: 5px;
-		margin-right: 0px;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 25px;
-		width: 100%;
+		width: 288px;
 	}
+
+		.about-img img{
+			width: 288px;
+			margin-left: auto;
+			margin-right: auto;
+		}
 
 
 .use-flour-cover{
