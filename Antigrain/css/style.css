@@ -664,6 +664,7 @@ nav a:hover{
 	/*font-weight: 300;*/
 	text-align: center;
 	margin-bottom: 60px;
+	line-height: 1.3em;
 	font-family: "Roboto Slab", "Roboto", "HN-Light", sans-serif;
 	color: #999;
 	font-weight: 300;	
@@ -1486,6 +1487,7 @@ td strong{
 	font-family: "Roboto", "HN-Light", sans-serif;
 	margin-bottom: 125px;
 	font-weight: 300;
+	line-height: 1.4em;
 	font-size: 14px;
 	border: 1px solid #999;
 }
