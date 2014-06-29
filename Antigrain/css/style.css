@@ -1163,8 +1163,8 @@ nav a:hover{
 }
 
 #contact form #pdp-qty{
-	width: 35%;
-	margin-right: 5%;
+	width: 33%;
+	margin-right: 2%;
 	float: left;
 	color: #666;
 	text-transform: uppercase;
@@ -1177,7 +1177,7 @@ nav a:hover{
 
 #contact form #pdp-buy{
 	background-color: #20995f;
-	width: 60%;
+	width: 55%;
 	float: left;
 	font-family: "Roboto", "Brandon", "Cubano", "HN-Light", sans-serif;
 	font-size: 16px;
@@ -1994,10 +1994,10 @@ display: none;
 	font-family: "HN-Med", sans-serif;
 }
 
-#value{
+/*#value{
 	text-align: right;
 	display: inline-block;
-}
+}*/
 
 #nutrition td{
 	font-size: 10px;
@@ -2405,12 +2405,14 @@ footer nav.social-links-foot{
 .half-container{
 	width: 288;
 	height: none;
-	margin-right: none;
+	margin-right: auto;
+	margin-left: auto;
 	border: none; 
 	float: none;
-	margin: 0px auto;
-	padding-right: none;
-	padding-left: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
