@@ -1864,6 +1864,7 @@ footer nav.social-links-foot{
 	width: 660px;
 }
 
+
 .half-container{
 	width: 300px;
 }
@@ -2223,6 +2224,7 @@ h3 .suggested{
 	margin-top: 10px;
 	width: 170px;
 }
+
 
 /* ===================== @ Media Mobile ====================== */
 
@@ -2789,11 +2791,13 @@ label{
 
 #pdp-content{
 	margin-top: 240px;
+	width: 288px;
 }
 
 #facts-container{
 	width: 288px;
 	margin-top: 30px;
+	padding: 0px 10px;
 }
 
 .featured-recipes{
