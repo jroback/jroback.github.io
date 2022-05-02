@@ -1,0 +1,76 @@
+#banner-frame{
+	display: block;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #999999;
+	width: 240px;
+	height: 400px;
+	z-index: -1;
+	background: #e3e5e8; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #e3e5e8 0%, #eaeeef 44%, #e8eaed 60%, #eff0f4 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #e3e5e8 0%,#eaeeef 44%,#e8eaed 60%,#eff0f4 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #e3e5e8 0%,#efeeef 40%,#e8eaed 66%,#eff0f4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e5e8', endColorstr='#eff0f4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#logo{
+	position: relative;
+	left: 192px;
+	top: 10px;
+	max-width: 38px;
+}
+
+
+#mouse{
+	display: block;
+	width: 120px;
+	margin: auto;
+}
+
+
+#text-frame{
+	display: block;
+	position: relative;
+}
+
+#text-frame span{
+	display: block;
+	font-family: "arial", sans-serif;
+	margin-left: 15px;
+	margin-top: 8px;
+}
+
+#text-frame span h3{
+	font-size: 22px;
+	letter-spacing: .03em;
+	color: #0086c7;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+#text-frame span p{
+	font-size: 15px;
+	color: #666;
+}
+
+#text-frame span i{
+	font-size: 26px;
+	color: #0086c7;
+	text-decoration: underline;
+}
+
+#text-frame #url{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #0086c7;
+	margin-top: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
